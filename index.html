@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f7ef"><title>IconHop · Jumping pet sandbox</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="mast"><div class="brand"><i class="mascot" aria-hidden="true"></i><h1>IconHop</h1></div>
+<span class="course">Robotics sandbox</span>
+<nav class="navlinks" aria-label="Experiments"><a href="methods.html">Course methods</a><a href="demos.html">Demo player</a></nav><button id="fullscreen" title="Enter full screen">Full screen ↗</button></header>
+<main><div class="scene-head"><div><p class="eyebrow">Desktop sandbox</p><h2 id="scene-title">First jump</h2></div>
+<label class="chooser">Demo scene<select id="scene"></select></label></div>
+<div class="workspace"><section class="desktop" aria-label="Editable desktop">
+<div id="screen"><canvas id="world" tabindex="0" aria-label="Editable desktop simulation. Click to select, drag to move, right-click for actions."></canvas>
+<div id="desktop-menu" class="shell-menu" role="menu" aria-label="Desktop actions" hidden>
+<button role="menuitem" data-action="refresh">Refresh</button>
+<button role="menuitem" data-action="new" aria-haspopup="menu" aria-expanded="false">New <span aria-hidden="true">›</span></button>
+<button role="menuitem" data-action="undo">Undo delete <small>Ctrl+Z</small></button>
+<button role="menuitem" data-action="restore">Restore last deleted item</button>
+<button role="menuitem" data-action="jump">Jump here</button>
+<button role="menuitem" data-action="cancel-target">Cancel target</button>
+<button role="menuitem" data-action="rename">Rename <small>F2</small></button>
+<button role="menuitem" data-action="delete">Delete <small>Del</small></button>
+</div>
+<div id="new-menu" class="shell-menu" role="menu" aria-label="New" hidden>
+<button role="menuitem" data-action="folder">Folder</button>
+<button role="menuitem" data-action="note">Text Document</button>
+</div>
+<input id="rename-icon" aria-label="File name" type="text" maxlength="100" autocomplete="off" hidden>
+<div id="desktop-notice" role="status" hidden></div>
+</div>
+<div class="caption"><span id="mode" class="mode"></span><span id="status" role="status" aria-live="polite"></span></div>
+</section>
+<aside class="panel"><h3>Flight desk</h3>
+<div class="target-controls"><label>Target<select id="target"></select></label><button id="cancel-target" type="button">Cancel target</button></div><label>Planner<select id="method">
+<option value="vi">Risk-aware MDP · VI</option><option value="pi">Risk-aware MDP · PI</option>
+<option value="astar">Deterministic A*</option><option value="dijkstra">Dijkstra</option><option value="mpc">Receding horizon</option><option value="greedy">Greedy</option></select></label>
+<label id="horizon-label" hidden>Horizon (jumps)<input id="horizon" type="number" value="2" min="1" max="12"></label>
+<div class="actions"><button id="run" class="primary">▶ Run route</button><button id="step">One jump</button></div>
+<div class="actions minor"><button id="reset">Reset scene</button></div>
+<button id="drop-support">Remove support · drop</button>
+<div class="line"></div><span class="small-label">Planned landings</span><p id="path"></p>
+<div class="metrics"><div><span id="effort-label">Next impulse</span><b id="impulse">—</b></div><div><span>Landing estimate</span><b id="chance">—</b></div>
+<div><span>Flight count</span><b id="count">0</b></div><div><span>Last impact</span><b id="impact">—</b></div></div>
+<details id="impact-history"><summary>Landing energy loss</summary><ol id="impact-events" aria-label="Recent landings, newest first"></ol></details>
+<div class="metrics motion-readings"><div><span>Position x</span><b id="horizontal-position">—</b></div><div><span>Horizontal speed vₓ</span><b id="horizontal-speed">—</b></div><div><span>Height y</span><b id="height">—</b></div><div><span>Vertical speed vᵧ</span><b id="vertical-speed">—</b></div><div><span>Vertical acceleration aᵧ</span><b id="vertical-accel">—</b></div></div>
+</aside></div>
+<section class="lab"><div><h3>Flight controls</h3><p id="instructions">Click to select. Drag to move. Right-click for desktop actions.</p></div>
+<div class="options"><label>Disturbance<select id="noise"><option value="0">Calm</option><option value=".5">Light</option><option value="1">Moderate</option><option value="1.7">Strong</option></select></label>
+<label>Jump controller<select id="solver"><option value="arc">High arc</option><option value="gn">Gauss–Newton</option><option value="kkt">Constrained optimum · KKT</option><option value="exposure">Wind exposure</option><option value="gd">Gradient descent</option><option value="grid">Grid search</option></select></label>
+<label>Flight seed<input id="seed" type="number" min="0" max="4294967295" value="2026"></label>
+<label class="check"><input id="graph" type="checkbox"><span id="graph-label">Reachable edges</span></label></div></section>
+<details class="editor"><summary>Manual launch</summary><div class="edit-controls">
+<label><span id="manual-strength">Impulse (N·s)</span><input id="manual-j" type="number" min=".01" max="8.35" value="7.45" step="any"></label>
+<label>Angle (°)<input id="manual-angle" type="number" min="0" max="180" value="45" step=".1"></label>
+<button id="copy-shot">Copy direct solution</button><button id="manual-fire">Launch at target</button><span id="manual-msg" role="status"></span></div></details>
+<details class="editor" id="learning-panel"><summary>Learning from repeated flights</summary><div class="edit-controls">
+<label class="check"><input id="learn" type="checkbox">Update edge probabilities after landing</label>
+<span id="observed">0 recorded flights</span><button id="clear-learn">Clear observations</button></div></details>
+<details class="editor" id="layout-editor"><summary>Keyboard layout editor and flight log</summary><div class="edit-controls"><label>Icon<select id="edit-id"></select></label>
+<label>X (m)<input type="number" step=".1" id="edit-x" min=".5" max="18.5"></label>
+<label>Height (m)<input type="number" step=".1" id="edit-y" min=".5" max="8"></label>
+<label>Width (m)<input type="number" step=".1" id="edit-w" min=".35" max="3.5"></label>
+<button id="apply-edit">Move / resize</button><button id="add-edit">Add icon</button><button id="remove-edit">Delete icon</button></div>
+<ol id="log" aria-label="Flight and edit events"></ol></details>
+</main>
+<script src="physics.js"></script><script src="control.js"></script><script src="planner.js"></script><script src="scenes.js"></script><script src="ground.js"></script><script src="engine.js"></script>
+<script src="render.js"></script><script src="desktop.js"></script><script src="app.js"></script></body></html>
+

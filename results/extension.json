@@ -1,0 +1,306 @@
+[
+  {
+    "profile": "standard",
+    "noise": 1,
+    "solver": "gn",
+    "method": "astar",
+    "layouts": 120,
+    "episodes": 7680,
+    "reached": 0.47265625,
+    "fallen": 0.52734375,
+    "stranded": 0,
+    "energy": 11.71617611999724,
+    "successEnergy": 14.201985856562665,
+    "cost": 55.08103181066508,
+    "delta": 0,
+    "deltaCI": [
+      0,
+      0
+    ]
+  },
+  {
+    "profile": "standard",
+    "noise": 1,
+    "solver": "gn",
+    "method": "vi",
+    "layouts": 120,
+    "episodes": 7680,
+    "reached": 0.9109375,
+    "fallen": 0.0890625,
+    "stranded": 0,
+    "energy": 18.67259591724043,
+    "successEnergy": 19.199446288460962,
+    "cost": 20.105443213213537,
+    "delta": 0,
+    "deltaCI": [
+      0,
+      0
+    ]
+  },
+  {
+    "profile": "standard",
+    "noise": 1,
+    "solver": "exposure",
+    "method": "astar",
+    "layouts": 120,
+    "episodes": 7680,
+    "reached": 0.5985677083333333,
+    "fallen": 0.40143229166666666,
+    "stranded": 0,
+    "energy": 13.250279502363368,
+    "successEnergy": 15.23993898882549,
+    "cost": 44.18252700893821,
+    "delta": 0.12591145833333334,
+    "deltaCI": [
+      0.083984375,
+      0.16666666666666666
+    ]
+  },
+  {
+    "profile": "standard",
+    "noise": 1,
+    "solver": "exposure",
+    "method": "vi",
+    "layouts": 120,
+    "episodes": 7680,
+    "reached": 0.957421875,
+    "fallen": 0.042578125,
+    "stranded": 0,
+    "energy": 18.511737052763547,
+    "successEnergy": 18.74463311373715,
+    "cost": 14.653489483380175,
+    "delta": 0.046484375,
+    "deltaCI": [
+      0.030729166666666665,
+      0.06263020833333334
+    ]
+  },
+  {
+    "profile": "standard",
+    "noise": 1.7,
+    "solver": "gn",
+    "method": "astar",
+    "layouts": 120,
+    "episodes": 7680,
+    "reached": 0.20807291666666666,
+    "fallen": 0.7919270833333333,
+    "stranded": 0,
+    "energy": 9.848485299905231,
+    "successEnergy": 14.139933829286026,
+    "cost": 77.73717396983005,
+    "delta": 0,
+    "deltaCI": [
+      0,
+      0
+    ]
+  },
+  {
+    "profile": "standard",
+    "noise": 1.7,
+    "solver": "gn",
+    "method": "vi",
+    "layouts": 120,
+    "episodes": 7680,
+    "reached": 0.549609375,
+    "fallen": 0.450390625,
+    "stranded": 0,
+    "energy": 16.11645952940843,
+    "successEnergy": 19.719331671904847,
+    "cost": 51.09419922492227,
+    "delta": 0,
+    "deltaCI": [
+      0,
+      0
+    ]
+  },
+  {
+    "profile": "standard",
+    "noise": 1.7,
+    "solver": "exposure",
+    "method": "astar",
+    "layouts": 120,
+    "episodes": 7680,
+    "reached": 0.2984375,
+    "fallen": 0.7015625,
+    "stranded": 0,
+    "energy": 11.649630784918505,
+    "successEnergy": 15.758968672924368,
+    "cost": 70.19588584338528,
+    "delta": 0.09036458333333333,
+    "deltaCI": [
+      0.06484375,
+      0.11536458333333334
+    ]
+  },
+  {
+    "profile": "standard",
+    "noise": 1.7,
+    "solver": "exposure",
+    "method": "vi",
+    "layouts": 120,
+    "episodes": 7680,
+    "reached": 0.77109375,
+    "fallen": 0.22890625,
+    "stranded": 0,
+    "energy": 19.20328735344366,
+    "successEnergy": 20.887698569727338,
+    "cost": 31.62584072984804,
+    "delta": 0.221484375,
+    "deltaCI": [
+      0.19270833333333334,
+      0.25169270833333335
+    ]
+  },
+  {
+    "profile": "sparse",
+    "noise": 1,
+    "solver": "gn",
+    "method": "astar",
+    "layouts": 120,
+    "episodes": 7680,
+    "reached": 0.5736979166666667,
+    "fallen": 0.42630208333333336,
+    "stranded": 0,
+    "energy": 12.848984463466675,
+    "successEnergy": 14.810803492279302,
+    "cost": 46.75098844108615,
+    "delta": 0,
+    "deltaCI": [
+      0,
+      0
+    ]
+  },
+  {
+    "profile": "sparse",
+    "noise": 1,
+    "solver": "gn",
+    "method": "vi",
+    "layouts": 120,
+    "episodes": 7680,
+    "reached": 0.801953125,
+    "fallen": 0.198046875,
+    "stranded": 0,
+    "energy": 15.857714925347578,
+    "successEnergy": 16.807205890192233,
+    "cost": 28.13106498610354,
+    "delta": 0,
+    "deltaCI": [
+      0,
+      0
+    ]
+  },
+  {
+    "profile": "sparse",
+    "noise": 1,
+    "solver": "exposure",
+    "method": "astar",
+    "layouts": 120,
+    "episodes": 7680,
+    "reached": 0.7442708333333333,
+    "fallen": 0.2557291666666667,
+    "stranded": 0,
+    "energy": 14.813850134723625,
+    "successEnergy": 16.290639260061386,
+    "cost": 31.854738346940078,
+    "delta": 0.17057291666666666,
+    "deltaCI": [
+      0.14127604166666666,
+      0.20026041666666666
+    ]
+  },
+  {
+    "profile": "sparse",
+    "noise": 1,
+    "solver": "exposure",
+    "method": "vi",
+    "layouts": 120,
+    "episodes": 7680,
+    "reached": 0.9459635416666666,
+    "fallen": 0.054036458333333336,
+    "stranded": 0,
+    "energy": 17.63663517403836,
+    "successEnergy": 17.92812127057328,
+    "cost": 15.148144935800731,
+    "delta": 0.14401041666666667,
+    "deltaCI": [
+      0.128125,
+      0.15950520833333334
+    ]
+  },
+  {
+    "profile": "stress",
+    "noise": 1,
+    "solver": "gn",
+    "method": "astar",
+    "layouts": 120,
+    "episodes": 7680,
+    "reached": 0.137890625,
+    "fallen": 0.587109375,
+    "stranded": 0.275,
+    "energy": 7.075117865098832,
+    "successEnergy": 14.989122848924488,
+    "cost": 82.32185482692661,
+    "delta": 0,
+    "deltaCI": [
+      0,
+      0
+    ]
+  },
+  {
+    "profile": "stress",
+    "noise": 1,
+    "solver": "gn",
+    "method": "vi",
+    "layouts": 120,
+    "episodes": 7680,
+    "reached": 0.21197916666666666,
+    "fallen": 0.5130208333333334,
+    "stranded": 0.275,
+    "energy": 8.689722406367823,
+    "successEnergy": 17.964235380198694,
+    "cost": 76.70340344402163,
+    "delta": 0,
+    "deltaCI": [
+      0,
+      0
+    ]
+  },
+  {
+    "profile": "stress",
+    "noise": 1,
+    "solver": "exposure",
+    "method": "astar",
+    "layouts": 120,
+    "episodes": 7680,
+    "reached": 0.20924479166666668,
+    "fallen": 0.42408854166666665,
+    "stranded": 0.36666666666666664,
+    "energy": 7.849410485619566,
+    "successEnergy": 16.759248522504425,
+    "cost": 75.91803102475666,
+    "delta": 0.07135416666666666,
+    "deltaCI": [
+      0.045572916666666664,
+      0.09778645833333334
+    ]
+  },
+  {
+    "profile": "stress",
+    "noise": 1,
+    "solver": "exposure",
+    "method": "vi",
+    "layouts": 120,
+    "episodes": 7680,
+    "reached": 0.3528645833333333,
+    "fallen": 0.28046875,
+    "stranded": 0.36666666666666664,
+    "energy": 10.271956712832589,
+    "successEnergy": 19.996623685578818,
+    "cost": 64.21351391243788,
+    "delta": 0.14088541666666668,
+    "deltaCI": [
+      0.10533854166666666,
+      0.17864583333333334
+    ]
+  }
+]

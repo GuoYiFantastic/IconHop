@@ -1,0 +1,196 @@
+{
+  "firstSeed": 3500000,
+  "sequences": 12000,
+  "jumps": 18,
+  "summary": [
+    {
+      "label": "Independent, matched",
+      "rho": 0,
+      "modelRho": 0,
+      "noiseSD": 0.1,
+      "assumedNoiseSD": 0.1,
+      "sequences": 12000,
+      "transfers": 216000,
+      "reach": 0.4666574074074074,
+      "windRMSE": 1.8264665474124115,
+      "normalizedSqErrorPerAxis": 1.0015991196776073,
+      "coverageX": 0.9501296296296297,
+      "coverageY": 0.9495601851851851,
+      "coverageXInterval": [
+        0.9492074967351151,
+        0.9510517625242177
+      ],
+      "meanXIntervalWidth": 6.762000000021973,
+      "totals": {
+        "reached": 100798,
+        "sqError": 720571.6905443888,
+        "normSq": 432690.8197007263,
+        "coveredX": 205228,
+        "coveredY": 205105,
+        "widthX": 1460592.0000047463
+      }
+    },
+    {
+      "label": "Independent, assume persistence",
+      "rho": 0,
+      "modelRho": 0.9,
+      "noiseSD": 0.1,
+      "assumedNoiseSD": 0.1,
+      "sequences": 12000,
+      "transfers": 216000,
+      "reach": 0.3782083333333333,
+      "windRMSE": 2.3980837143453764,
+      "normalizedSqErrorPerAxis": 7.832260429745901,
+      "coverageX": 0.5101574074074074,
+      "coverageY": 0.5586296296296296,
+      "coverageXInterval": [
+        0.5079097466818926,
+        0.5124050681329272
+      ],
+      "meanXIntervalWidth": 3.204176883817388,
+      "totals": {
+        "reached": 81693,
+        "sqError": 1242173.9882178395,
+        "normSq": 3383536.5056502293,
+        "coveredX": 110194,
+        "coveredY": 120664,
+        "widthX": 692102.2069045558
+      }
+    },
+    {
+      "label": "Persistent, low sensor noise",
+      "rho": 0.9,
+      "modelRho": 0.9,
+      "noiseSD": 0.1,
+      "assumedNoiseSD": 0.1,
+      "sequences": 12000,
+      "transfers": 216000,
+      "reach": 0.7935324074074074,
+      "windRMSE": 0.9116468142290735,
+      "normalizedSqErrorPerAxis": 0.9984594459891836,
+      "coverageX": 0.9506666666666667,
+      "coverageY": 0.9499351851851852,
+      "coverageXInterval": [
+        0.9497519244372085,
+        0.9515814088961961
+      ],
+      "meanXIntervalWidth": 3.2288036749352025,
+      "totals": {
+        "reached": 171403,
+        "sqError": 179517.58140110807,
+        "normSq": 431334.4806673273,
+        "coveredX": 205344,
+        "coveredY": 205186,
+        "widthX": 697421.5937860038
+      }
+    },
+    {
+      "label": "Persistent, matched high noise",
+      "rho": 0.9,
+      "modelRho": 0.9,
+      "noiseSD": 0.3,
+      "assumedNoiseSD": 0.3,
+      "sequences": 12000,
+      "transfers": 216000,
+      "reach": 0.7477546296296296,
+      "windRMSE": 0.996816644819242,
+      "normalizedSqErrorPerAxis": 0.9719320255063344,
+      "coverageX": 0.9531064814814815,
+      "coverageY": 0.9522777777777778,
+      "coverageXInterval": [
+        0.9522059007376322,
+        0.9540070622254078
+      ],
+      "meanXIntervalWidth": 3.5529444681984232,
+      "totals": {
+        "reached": 161515,
+        "sqError": 214626.97945195725,
+        "normSq": 419874.6350187365,
+        "coveredX": 205871,
+        "coveredY": 205692,
+        "widthX": 767436.0051308594
+      }
+    },
+    {
+      "label": "Persistent, underestimate sensor noise",
+      "rho": 0.9,
+      "modelRho": 0.9,
+      "noiseSD": 0.3,
+      "assumedNoiseSD": 0.1,
+      "sequences": 12000,
+      "transfers": 216000,
+      "reach": 0.7258935185185185,
+      "windRMSE": 1.0595680625421664,
+      "normalizedSqErrorPerAxis": 1.7323920280225902,
+      "coverageX": 0.9130185185185186,
+      "coverageY": 0.8220046296296296,
+      "coverageXInterval": [
+        0.9118423261721249,
+        0.914194710864914
+      ],
+      "meanXIntervalWidth": 3.224942521242402,
+      "totals": {
+        "reached": 156793,
+        "sqError": 242499.84749842182,
+        "normSq": 748393.3561057589,
+        "coveredX": 197212,
+        "coveredY": 177553,
+        "widthX": 696587.5845883589
+      }
+    },
+    {
+      "label": "Persistent, overestimate sensor noise",
+      "rho": 0.9,
+      "modelRho": 0.9,
+      "noiseSD": 0.3,
+      "assumedNoiseSD": 0.6,
+      "sequences": 12000,
+      "transfers": 216000,
+      "reach": 0.7351898148148148,
+      "windRMSE": 1.007829399134275,
+      "normalizedSqErrorPerAxis": 0.7717966543716516,
+      "coverageX": 0.9741342592592592,
+      "coverageY": 0.9727592592592592,
+      "coverageXInterval": [
+        0.9734219415869558,
+        0.9748465769316397
+      ],
+      "meanXIntervalWidth": 4.033250142293031,
+      "totals": {
+        "reached": 158801,
+        "sqError": 219395.54111602038,
+        "normSq": 333416.1546885535,
+        "coveredX": 210413,
+        "coveredY": 210116,
+        "widthX": 871182.0307352947
+      }
+    },
+    {
+      "label": "Persistent, assume independence",
+      "rho": 0.9,
+      "modelRho": 0,
+      "noiseSD": 0.3,
+      "assumedNoiseSD": 0.3,
+      "sequences": 12000,
+      "transfers": 216000,
+      "reach": 0.46744444444444444,
+      "windRMSE": 1.8282482564493634,
+      "normalizedSqErrorPerAxis": 1.0010291063786807,
+      "coverageX": 0.9496666666666667,
+      "coverageY": 0.9490694444444444,
+      "coverageXInterval": [
+        0.947646383651638,
+        0.9516869496817135
+      ],
+      "meanXIntervalWidth": 6.762000000021973,
+      "totals": {
+        "reached": 100968,
+        "sqError": 721978.2044373896,
+        "normSq": 432444.5739555901,
+        "coveredX": 205128,
+        "coveredY": 204999,
+        "widthX": 1460592.0000047463
+      }
+    }
+  ]
+}

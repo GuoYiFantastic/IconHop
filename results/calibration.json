@@ -1,0 +1,1064 @@
+{
+  "modelScale": 1,
+  "firstSeed": 960000,
+  "layouts": 180,
+  "holdoutFlights": 256,
+  "routeFlights": 64,
+  "nominalPairs": 8944,
+  "safeEdges": 4521,
+  "trainingMatches": 4521,
+  "summary": [
+    {
+      "scale": 1,
+      "estimate": "mc16",
+      "layouts": 180,
+      "testedEdges": 4521,
+      "brier": 0.10795972959522229,
+      "bias": 0.00017107664233576643,
+      "reach": 0.8661458333333333,
+      "meanCost": 23.70309807516417,
+      "deltaReach": -0.035416666666666666,
+      "deltaReachCI": [
+        -0.04704861111111111,
+        -0.024826388888888887
+      ]
+    },
+    {
+      "scale": 1,
+      "estimate": "mc64",
+      "layouts": 180,
+      "testedEdges": 4521,
+      "brier": 0.10341132116961126,
+      "bias": -0.0002401985180269852,
+      "reach": 0.9015625,
+      "meanCost": 21.039569594417628,
+      "deltaReach": 0,
+      "deltaReachCI": [
+        0,
+        0
+      ]
+    },
+    {
+      "scale": 1,
+      "estimate": "mc256",
+      "layouts": 180,
+      "testedEdges": 4521,
+      "brier": 0.10226913955037084,
+      "bias": -0.0004034989493474895,
+      "reach": 0.9032118055555556,
+      "meanCost": 20.987673687035073,
+      "deltaReach": 0.0016493055555555556,
+      "deltaReachCI": [
+        -0.00017361111111111112,
+        0.003732638888888889
+      ]
+    },
+    {
+      "scale": 1,
+      "estimate": "observed8",
+      "layouts": 180,
+      "testedEdges": 4521,
+      "brier": 0.10558406798047981,
+      "bias": -0.020328032092067093,
+      "reach": 0.8767361111111112,
+      "meanCost": 22.554097958760696,
+      "deltaReach": -0.024826388888888887,
+      "deltaReachCI": [
+        -0.03307291666666667,
+        -0.01675347222222222
+      ]
+    },
+    {
+      "scale": 1,
+      "estimate": "observed32",
+      "layouts": 180,
+      "testedEdges": 4521,
+      "brier": 0.10381406016317896,
+      "bias": -0.009008308449458088,
+      "reach": 0.89921875,
+      "meanCost": 21.075180311317354,
+      "deltaReach": -0.00234375,
+      "deltaReachCI": [
+        -0.005729166666666666,
+        0.0008680555555555555
+      ]
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc16",
+      "layouts": 180,
+      "testedEdges": 4521,
+      "brier": 0.19987216773114355,
+      "bias": 0.15797804689228048,
+      "reach": 0.48359375,
+      "meanCost": 56.292171267152604,
+      "deltaReach": -0.04236111111111111,
+      "deltaReachCI": [
+        -0.05564236111111111,
+        -0.030729166666666665
+      ]
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc64",
+      "layouts": 180,
+      "testedEdges": 4521,
+      "brier": 0.19533509961326312,
+      "bias": 0.15756677173191772,
+      "reach": 0.5259548611111111,
+      "meanCost": 52.98216597606959,
+      "deltaReach": 0,
+      "deltaReachCI": [
+        0,
+        0
+      ]
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc256",
+      "layouts": 180,
+      "testedEdges": 4521,
+      "brier": 0.19413807950592546,
+      "bias": 0.1574034713005972,
+      "reach": 0.5324652777777777,
+      "meanCost": 52.53521136740897,
+      "deltaReach": 0.006510416666666667,
+      "deltaReachCI": [
+        0.0011284722222222221,
+        0.0125
+      ]
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed8",
+      "layouts": 180,
+      "testedEdges": 4521,
+      "brier": 0.17376962029822954,
+      "bias": 0.06364051094890513,
+      "reach": 0.48072916666666665,
+      "meanCost": 56.513250682875,
+      "deltaReach": -0.04522569444444444,
+      "deltaReachCI": [
+        -0.059375,
+        -0.03211805555555555
+      ]
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed32",
+      "layouts": 180,
+      "testedEdges": 4521,
+      "brier": 0.16700755951023416,
+      "bias": 0.026361903259045843,
+      "reach": 0.5256944444444445,
+      "meanCost": 53.03984835368309,
+      "deltaReach": -0.00026041666666666666,
+      "deltaReachCI": [
+        -0.008940972222222222,
+        0.00859375
+      ]
+    }
+  ],
+  "reliability": [
+    {
+      "scale": 1,
+      "estimate": "mc16",
+      "bin": 9,
+      "edges": 2427,
+      "trials": 621312,
+      "wins": 603627,
+      "sumPredicted": 2395.3125
+    },
+    {
+      "scale": 1,
+      "estimate": "mc16",
+      "bin": 1,
+      "edges": 53,
+      "trials": 13568,
+      "wins": 3932,
+      "sumPredicted": 8.8125
+    },
+    {
+      "scale": 1,
+      "estimate": "mc16",
+      "bin": 5,
+      "edges": 328,
+      "trials": 83968,
+      "wins": 47382,
+      "sumPredicted": 175.375
+    },
+    {
+      "scale": 1,
+      "estimate": "mc16",
+      "bin": 3,
+      "edges": 211,
+      "trials": 54016,
+      "wins": 22844,
+      "sumPredicted": 74.25
+    },
+    {
+      "scale": 1,
+      "estimate": "mc16",
+      "bin": 8,
+      "edges": 611,
+      "trials": 156416,
+      "wins": 131116,
+      "sumPredicted": 518.75
+    },
+    {
+      "scale": 1,
+      "estimate": "mc64",
+      "bin": 9,
+      "edges": 2424,
+      "trials": 620544,
+      "wins": 605829,
+      "sumPredicted": 2375.578125
+    },
+    {
+      "scale": 1,
+      "estimate": "mc64",
+      "bin": 8,
+      "edges": 515,
+      "trials": 131840,
+      "wins": 112602,
+      "sumPredicted": 440.59375
+    },
+    {
+      "scale": 1,
+      "estimate": "mc64",
+      "bin": 1,
+      "edges": 22,
+      "trials": 5632,
+      "wins": 1211,
+      "sumPredicted": 3.546875
+    },
+    {
+      "scale": 1,
+      "estimate": "mc64",
+      "bin": 4,
+      "edges": 201,
+      "trials": 51456,
+      "wins": 23925,
+      "sumPredicted": 89.65625
+    },
+    {
+      "scale": 1,
+      "estimate": "mc256",
+      "bin": 9,
+      "edges": 2381,
+      "trials": 609536,
+      "wins": 596918,
+      "sumPredicted": 2334.22265625
+    },
+    {
+      "scale": 1,
+      "estimate": "mc256",
+      "bin": 8,
+      "edges": 603,
+      "trials": 154368,
+      "wins": 131663,
+      "sumPredicted": 513.97265625
+    },
+    {
+      "scale": 1,
+      "estimate": "mc256",
+      "bin": 1,
+      "edges": 21,
+      "trials": 5376,
+      "wins": 950,
+      "sumPredicted": 3.44140625
+    },
+    {
+      "scale": 1,
+      "estimate": "mc256",
+      "bin": 5,
+      "edges": 327,
+      "trials": 83712,
+      "wins": 46046,
+      "sumPredicted": 179.87890625
+    },
+    {
+      "scale": 1,
+      "estimate": "mc256",
+      "bin": 3,
+      "edges": 147,
+      "trials": 37632,
+      "wins": 13633,
+      "sumPredicted": 52.37890625
+    },
+    {
+      "scale": 1,
+      "estimate": "observed8",
+      "bin": 9,
+      "edges": 2241,
+      "trials": 573696,
+      "wins": 561847,
+      "sumPredicted": 2150.8455882353123
+    },
+    {
+      "scale": 1,
+      "estimate": "observed8",
+      "bin": 8,
+      "edges": 656,
+      "trials": 167936,
+      "wins": 146018,
+      "sumPredicted": 558.6176470588239
+    },
+    {
+      "scale": 1,
+      "estimate": "observed8",
+      "bin": 3,
+      "edges": 166,
+      "trials": 42496,
+      "wins": 17085,
+      "sumPredicted": 59.70588235294117
+    },
+    {
+      "scale": 1,
+      "estimate": "observed8",
+      "bin": 4,
+      "edges": 243,
+      "trials": 62208,
+      "wins": 29786,
+      "sumPredicted": 108.51470588235293
+    },
+    {
+      "scale": 1,
+      "estimate": "observed32",
+      "bin": 9,
+      "edges": 2356,
+      "trials": 603136,
+      "wins": 590080,
+      "sumPredicted": 2288.1768292682896
+    },
+    {
+      "scale": 1,
+      "estimate": "observed32",
+      "bin": 8,
+      "edges": 574,
+      "trials": 146944,
+      "wins": 125716,
+      "sumPredicted": 489.50914634146284
+    },
+    {
+      "scale": 1,
+      "estimate": "observed32",
+      "bin": 1,
+      "edges": 20,
+      "trials": 5120,
+      "wins": 1014,
+      "sumPredicted": 3.2073170731707323
+    },
+    {
+      "scale": 1,
+      "estimate": "observed32",
+      "bin": 5,
+      "edges": 344,
+      "trials": 88064,
+      "wins": 49064,
+      "sumPredicted": 188.8140243902439
+    },
+    {
+      "scale": 1,
+      "estimate": "observed32",
+      "bin": 3,
+      "edges": 139,
+      "trials": 35584,
+      "wins": 13555,
+      "sumPredicted": 49.088414634146375
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc16",
+      "bin": 9,
+      "edges": 2427,
+      "trials": 621312,
+      "wins": 530697,
+      "sumPredicted": 2395.3125
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc16",
+      "bin": 1,
+      "edges": 53,
+      "trials": 13568,
+      "wins": 2410,
+      "sumPredicted": 8.8125
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc16",
+      "bin": 5,
+      "edges": 328,
+      "trials": 83968,
+      "wins": 31184,
+      "sumPredicted": 175.375
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc16",
+      "bin": 3,
+      "edges": 211,
+      "trials": 54016,
+      "wins": 14564,
+      "sumPredicted": 74.25
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc16",
+      "bin": 8,
+      "edges": 611,
+      "trials": 156416,
+      "wins": 94552,
+      "sumPredicted": 518.75
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc64",
+      "bin": 9,
+      "edges": 2424,
+      "trials": 620544,
+      "wins": 534532,
+      "sumPredicted": 2375.578125
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc64",
+      "bin": 8,
+      "edges": 515,
+      "trials": 131840,
+      "wins": 80445,
+      "sumPredicted": 440.59375
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc64",
+      "bin": 1,
+      "edges": 22,
+      "trials": 5632,
+      "wins": 752,
+      "sumPredicted": 3.546875
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc64",
+      "bin": 4,
+      "edges": 201,
+      "trials": 51456,
+      "wins": 15411,
+      "sumPredicted": 89.65625
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc256",
+      "bin": 9,
+      "edges": 2381,
+      "trials": 609536,
+      "wins": 528666,
+      "sumPredicted": 2334.22265625
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc256",
+      "bin": 8,
+      "edges": 603,
+      "trials": 154368,
+      "wins": 93548,
+      "sumPredicted": 513.97265625
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc256",
+      "bin": 1,
+      "edges": 21,
+      "trials": 5376,
+      "wins": 614,
+      "sumPredicted": 3.44140625
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc256",
+      "bin": 5,
+      "edges": 327,
+      "trials": 83712,
+      "wins": 30990,
+      "sumPredicted": 179.87890625
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc256",
+      "bin": 3,
+      "edges": 147,
+      "trials": 37632,
+      "wins": 8119,
+      "sumPredicted": 52.37890625
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed8",
+      "bin": 9,
+      "edges": 1517,
+      "trials": 388352,
+      "wins": 355001,
+      "sumPredicted": 1437.9485294117817
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed8",
+      "bin": 7,
+      "edges": 547,
+      "trials": 140032,
+      "wins": 94129,
+      "sumPredicted": 413.3014705882351
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed8",
+      "bin": 3,
+      "edges": 278,
+      "trials": 71168,
+      "wins": 21246,
+      "sumPredicted": 98.11029411764697
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed8",
+      "bin": 4,
+      "edges": 356,
+      "trials": 91136,
+      "wins": 34550,
+      "sumPredicted": 160.34558823529434
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed32",
+      "bin": 9,
+      "edges": 1180,
+      "trials": 302080,
+      "wins": 282521,
+      "sumPredicted": 1124.128048780498
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed32",
+      "bin": 6,
+      "edges": 482,
+      "trials": 123392,
+      "wins": 74484,
+      "sumPredicted": 312.96951219512215
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed32",
+      "bin": 7,
+      "edges": 544,
+      "trials": 139264,
+      "wins": 99446,
+      "sumPredicted": 408.8963414634149
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed32",
+      "bin": 1,
+      "edges": 110,
+      "trials": 28160,
+      "wins": 4832,
+      "sumPredicted": 17.564024390243897
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed32",
+      "bin": 8,
+      "edges": 752,
+      "trials": 192512,
+      "wins": 160613,
+      "sumPredicted": 641.8810975609751
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed32",
+      "bin": 3,
+      "edges": 333,
+      "trials": 85248,
+      "wins": 28562,
+      "sumPredicted": 117.55182926829264
+    },
+    {
+      "scale": 1,
+      "estimate": "mc16",
+      "bin": 7,
+      "edges": 265,
+      "trials": 67840,
+      "wins": 50819,
+      "sumPredicted": 198.75
+    },
+    {
+      "scale": 1,
+      "estimate": "mc16",
+      "bin": 6,
+      "edges": 432,
+      "trials": 110592,
+      "wins": 72621,
+      "sumPredicted": 283.5
+    },
+    {
+      "scale": 1,
+      "estimate": "mc64",
+      "bin": 5,
+      "edges": 344,
+      "trials": 88064,
+      "wins": 48280,
+      "sumPredicted": 188.328125
+    },
+    {
+      "scale": 1,
+      "estimate": "mc64",
+      "bin": 2,
+      "edges": 76,
+      "trials": 19456,
+      "wins": 5410,
+      "sumPredicted": 19.6875
+    },
+    {
+      "scale": 1,
+      "estimate": "mc64",
+      "bin": 6,
+      "edges": 320,
+      "trials": 81920,
+      "wins": 52468,
+      "sumPredicted": 207.25
+    },
+    {
+      "scale": 1,
+      "estimate": "mc64",
+      "bin": 7,
+      "edges": 458,
+      "trials": 117248,
+      "wins": 88684,
+      "sumPredicted": 344.8125
+    },
+    {
+      "scale": 1,
+      "estimate": "mc256",
+      "bin": 6,
+      "edges": 331,
+      "trials": 84736,
+      "wins": 54720,
+      "sumPredicted": 214.12890625
+    },
+    {
+      "scale": 1,
+      "estimate": "mc256",
+      "bin": 4,
+      "edges": 250,
+      "trials": 64000,
+      "wins": 29732,
+      "sumPredicted": 114.08203125
+    },
+    {
+      "scale": 1,
+      "estimate": "mc256",
+      "bin": 7,
+      "edges": 394,
+      "trials": 100864,
+      "wins": 76087,
+      "sumPredicted": 296.46484375
+    },
+    {
+      "scale": 1,
+      "estimate": "observed8",
+      "bin": 6,
+      "edges": 406,
+      "trials": 103936,
+      "wins": 69059,
+      "sumPredicted": 264.89705882352916
+    },
+    {
+      "scale": 1,
+      "estimate": "observed8",
+      "bin": 5,
+      "edges": 315,
+      "trials": 80640,
+      "wins": 45243,
+      "sumPredicted": 172.71323529411748
+    },
+    {
+      "scale": 1,
+      "estimate": "observed32",
+      "bin": 6,
+      "edges": 334,
+      "trials": 85504,
+      "wins": 56372,
+      "sumPredicted": 217.05182926829258
+    },
+    {
+      "scale": 1,
+      "estimate": "observed32",
+      "bin": 2,
+      "edges": 79,
+      "trials": 20224,
+      "wins": 5867,
+      "sumPredicted": 20.350609756097555
+    },
+    {
+      "scale": 1,
+      "estimate": "observed32",
+      "bin": 7,
+      "edges": 416,
+      "trials": 106496,
+      "wins": 81540,
+      "sumPredicted": 313.9573170731708
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc16",
+      "bin": 7,
+      "edges": 265,
+      "trials": 67840,
+      "wins": 35056,
+      "sumPredicted": 198.75
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc16",
+      "bin": 6,
+      "edges": 432,
+      "trials": 110592,
+      "wins": 49120,
+      "sumPredicted": 283.5
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc64",
+      "bin": 5,
+      "edges": 344,
+      "trials": 88064,
+      "wins": 32219,
+      "sumPredicted": 188.328125
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc64",
+      "bin": 2,
+      "edges": 76,
+      "trials": 19456,
+      "wins": 3193,
+      "sumPredicted": 19.6875
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc64",
+      "bin": 6,
+      "edges": 320,
+      "trials": 81920,
+      "wins": 35166,
+      "sumPredicted": 207.25
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc64",
+      "bin": 7,
+      "edges": 458,
+      "trials": 117248,
+      "wins": 60262,
+      "sumPredicted": 344.8125
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc256",
+      "bin": 6,
+      "edges": 331,
+      "trials": 84736,
+      "wins": 36409,
+      "sumPredicted": 214.12890625
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc256",
+      "bin": 4,
+      "edges": 250,
+      "trials": 64000,
+      "wins": 19226,
+      "sumPredicted": 114.08203125
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc256",
+      "bin": 7,
+      "edges": 394,
+      "trials": 100864,
+      "wins": 51422,
+      "sumPredicted": 296.46484375
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed8",
+      "bin": 5,
+      "edges": 458,
+      "trials": 117248,
+      "wins": 53879,
+      "sumPredicted": 251.90441176470554
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed8",
+      "bin": 8,
+      "edges": 673,
+      "trials": 172288,
+      "wins": 133202,
+      "sumPredicted": 573.264705882354
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed8",
+      "bin": 6,
+      "edges": 497,
+      "trials": 127232,
+      "wins": 69727,
+      "sumPredicted": 322.4632352941175
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed8",
+      "bin": 2,
+      "edges": 139,
+      "trials": 35584,
+      "wins": 7629,
+      "sumPredicted": 35.57352941176472
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed32",
+      "bin": 2,
+      "edges": 206,
+      "trials": 52736,
+      "wins": 13099,
+      "sumPredicted": 53.64024390243901
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed32",
+      "bin": 5,
+      "edges": 484,
+      "trials": 123904,
+      "wins": 62834,
+      "sumPredicted": 265.24390243902405
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed32",
+      "bin": 4,
+      "edges": 424,
+      "trials": 108544,
+      "wins": 44986,
+      "sumPredicted": 190.7347560975613
+    },
+    {
+      "scale": 1,
+      "estimate": "mc64",
+      "bin": 3,
+      "edges": 158,
+      "trials": 40448,
+      "wins": 15685,
+      "sumPredicted": 56.546875
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc64",
+      "bin": 3,
+      "edges": 158,
+      "trials": 40448,
+      "wins": 9515,
+      "sumPredicted": 56.546875
+    },
+    {
+      "scale": 1,
+      "estimate": "observed8",
+      "bin": 7,
+      "edges": 396,
+      "trials": 101376,
+      "wins": 78056,
+      "sumPredicted": 297.73529411764724
+    },
+    {
+      "scale": 1,
+      "estimate": "mc16",
+      "bin": 2,
+      "edges": 51,
+      "trials": 13056,
+      "wins": 4593,
+      "sumPredicted": 12.75
+    },
+    {
+      "scale": 1,
+      "estimate": "mc16",
+      "bin": 4,
+      "edges": 138,
+      "trials": 35328,
+      "wins": 17022,
+      "sumPredicted": 60.375
+    },
+    {
+      "scale": 1,
+      "estimate": "observed32",
+      "bin": 4,
+      "edges": 257,
+      "trials": 65792,
+      "wins": 30923,
+      "sumPredicted": 116.29573170731715
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc16",
+      "bin": 2,
+      "edges": 51,
+      "trials": 13056,
+      "wins": 2715,
+      "sumPredicted": 12.75
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc16",
+      "bin": 4,
+      "edges": 138,
+      "trials": 35328,
+      "wins": 11115,
+      "sumPredicted": 60.375
+    },
+    {
+      "scale": 1,
+      "estimate": "observed8",
+      "bin": 2,
+      "edges": 73,
+      "trials": 18688,
+      "wins": 5664,
+      "sumPredicted": 18.639705882352942
+    },
+    {
+      "scale": 1,
+      "estimate": "mc256",
+      "bin": 2,
+      "edges": 66,
+      "trials": 16896,
+      "wins": 4428,
+      "sumPredicted": 16.87109375
+    },
+    {
+      "scale": 1,
+      "estimate": "observed8",
+      "bin": 1,
+      "edges": 22,
+      "trials": 5632,
+      "wins": 1336,
+      "sumPredicted": 3.5441176470588225
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc256",
+      "bin": 2,
+      "edges": 66,
+      "trials": 16896,
+      "wins": 2548,
+      "sumPredicted": 16.87109375
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed8",
+      "bin": 1,
+      "edges": 51,
+      "trials": 13056,
+      "wins": 2043,
+      "sumPredicted": 8.294117647058826
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed8",
+      "bin": 0,
+      "edges": 5,
+      "trials": 1280,
+      "wins": 154,
+      "sumPredicted": 0.41911764705882354
+    },
+    {
+      "scale": 1,
+      "estimate": "mc16",
+      "bin": 0,
+      "edges": 5,
+      "trials": 1280,
+      "wins": 246,
+      "sumPredicted": 0.25
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc16",
+      "bin": 0,
+      "edges": 5,
+      "trials": 1280,
+      "wins": 147,
+      "sumPredicted": 0.25
+    },
+    {
+      "scale": 1,
+      "estimate": "observed8",
+      "bin": 0,
+      "edges": 3,
+      "trials": 768,
+      "wins": 108,
+      "sumPredicted": 0.23529411764705882
+    },
+    {
+      "scale": 1.7,
+      "estimate": "observed32",
+      "bin": 0,
+      "edges": 6,
+      "trials": 1536,
+      "wins": 183,
+      "sumPredicted": 0.47865853658536583
+    },
+    {
+      "scale": 1,
+      "estimate": "observed32",
+      "bin": 0,
+      "edges": 2,
+      "trials": 512,
+      "wins": 71,
+      "sumPredicted": 0.17378048780487804
+    },
+    {
+      "scale": 1,
+      "estimate": "mc64",
+      "bin": 0,
+      "edges": 3,
+      "trials": 768,
+      "wins": 108,
+      "sumPredicted": 0.265625
+    },
+    {
+      "scale": 1,
+      "estimate": "mc256",
+      "bin": 0,
+      "edges": 1,
+      "trials": 256,
+      "wins": 25,
+      "sumPredicted": 0.0859375
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc64",
+      "bin": 0,
+      "edges": 3,
+      "trials": 768,
+      "wins": 65,
+      "sumPredicted": 0.265625
+    },
+    {
+      "scale": 1.7,
+      "estimate": "mc256",
+      "bin": 0,
+      "edges": 1,
+      "trials": 256,
+      "wins": 18,
+      "sumPredicted": 0.0859375
+    }
+  ]
+}

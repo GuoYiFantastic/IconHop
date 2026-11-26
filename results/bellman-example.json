@@ -1,0 +1,43 @@
+{
+  "scene": "wind",
+  "executionSeed": 2,
+  "icon": "mail",
+  "goal": "archive",
+  "stamina": 25.827866358014326,
+  "budget": 51,
+  "failureCost": 90,
+  "choices": [
+    {
+      "to": "archive",
+      "hits": 48,
+      "trials": 64,
+      "stage": 3.8359834390788663,
+      "bins": 12,
+      "future": 0,
+      "expected": 26.335983439078866,
+      "deterministic": 3.8359834390788663
+    },
+    {
+      "to": "tools",
+      "hits": 64,
+      "trials": 64,
+      "stage": 2.744389378965858,
+      "bins": 9,
+      "future": 2.6966958126894776,
+      "expected": 5.441085191655336,
+      "deterministic": 5.441085191655336
+    },
+    {
+      "to": "wide",
+      "hits": 62,
+      "trials": 64,
+      "stage": 2.947980238957549,
+      "bins": 9,
+      "future": 16.651304271598487,
+      "expected": 21.891431252068582,
+      "deterministic": 10.066784494697254
+    }
+  ],
+  "vi": "tools",
+  "astar": "archive"
+}

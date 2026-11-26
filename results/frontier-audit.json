@@ -1,0 +1,32 @@
+{
+  "firstSeed": 1100000,
+  "requested": 180000,
+  "started": "2026-11-12T17:25:45.911Z",
+  "completed": 180000,
+  "scalarChecks": 720000,
+  "explicitPathChecks": 1997030,
+  "exhaustiveChecks": 1500,
+  "maxValueError": 2.842170943040401e-14,
+  "maxLabelError": 7.105427357601002e-15,
+  "profiles": {
+    "standard": {
+      "layouts": 60000,
+      "empty": 5,
+      "labels": 978713,
+      "maximumLabels": 157
+    },
+    "sparse": {
+      "layouts": 60000,
+      "empty": 1,
+      "labels": 370273,
+      "maximumLabels": 31
+    },
+    "stress": {
+      "layouts": 60000,
+      "empty": 14906,
+      "labels": 648044,
+      "maximumLabels": 120
+    }
+  },
+  "updated": "2026-11-12T17:35:29.640Z"
+}

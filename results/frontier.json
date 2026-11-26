@@ -1,0 +1,200 @@
+{
+  "firstSeed": 980000,
+  "layouts": 240,
+  "trials": 96,
+  "modelSamples": 128,
+  "summary": [
+    {
+      "method": "GN A*",
+      "layouts": 240,
+      "trials": 23040,
+      "reach": 0.4950954861111111,
+      "energy": 12.073722298928391,
+      "energyOnSuccess": 14.471605996750304,
+      "deltaReachVsGN": -0.4112847222222223,
+      "reachDeltaInterval": [
+        -0.4348090277777779,
+        -0.3881944444444445
+      ],
+      "deltaEnergyVsGN": -6.831930232042856,
+      "energyDeltaInterval": [
+        -7.156557116474315,
+        -6.523225862755098
+      ]
+    },
+    {
+      "method": "GN greedy",
+      "layouts": 240,
+      "trials": 23040,
+      "reach": 0.5217881944444445,
+      "energy": 11.980319625686914,
+      "energyOnSuccess": 14.594307478327403,
+      "deltaReachVsGN": -0.384592013888889,
+      "reachDeltaInterval": [
+        -0.40937500000000016,
+        -0.36037326388888874
+      ],
+      "deltaEnergyVsGN": -6.925332905284334,
+      "energyDeltaInterval": [
+        -7.294167983359729,
+        -6.550688708501711
+      ]
+    },
+    {
+      "method": "GN VI",
+      "layouts": 240,
+      "trials": 23040,
+      "reach": 0.9063802083333333,
+      "energy": 18.905652530971242,
+      "energyOnSuccess": 19.539754559369214,
+      "deltaReachVsGN": 0,
+      "reachDeltaInterval": [
+        0,
+        0
+      ],
+      "deltaEnergyVsGN": 0,
+      "energyDeltaInterval": [
+        0,
+        0
+      ]
+    },
+    {
+      "method": "Exposure VI",
+      "layouts": 240,
+      "trials": 23040,
+      "reach": 0.9555989583333333,
+      "energy": 18.837304997767866,
+      "energyOnSuccess": 19.030644346539514,
+      "deltaReachVsGN": 0.049218750000000026,
+      "reachDeltaInterval": [
+        0.03268229166666665,
+        0.06597222222222224
+      ],
+      "deltaEnergyVsGN": -0.06834753320336638,
+      "energyDeltaInterval": [
+        -0.4154986748144921,
+        0.26911776541529725
+      ]
+    },
+    {
+      "method": "Both frontier 70%",
+      "layouts": 240,
+      "trials": 23040,
+      "reach": 0.7553819444444444,
+      "energy": 14.494767179442313,
+      "energyOnSuccess": 16.01403319687773,
+      "deltaReachVsGN": -0.15099826388888885,
+      "reachDeltaInterval": [
+        -0.16883680555555564,
+        -0.13211805555555553
+      ],
+      "deltaEnergyVsGN": -4.410885351528928,
+      "energyDeltaInterval": [
+        -4.810366247765258,
+        -3.9857242031240796
+      ],
+      "threshold": 0.7,
+      "modelFeasibleLayouts": 239,
+      "noRouteLayouts": 0,
+      "predictedReach": 0.7633411620743573,
+      "expectedEnergy": 14.510351991282224,
+      "conditionalRealizedReach": 0.7563197350069738
+    },
+    {
+      "method": "GN frontier 85%",
+      "layouts": 240,
+      "trials": 23040,
+      "reach": 0.8616319444444445,
+      "energy": 17.200004325136725,
+      "energyOnSuccess": 18.059986987860825,
+      "deltaReachVsGN": -0.04474826388888889,
+      "reachDeltaInterval": [
+        -0.05256076388888887,
+        -0.03684895833333334
+      ],
+      "deltaEnergyVsGN": -1.7056482058345104,
+      "energyDeltaInterval": [
+        -1.961394914381185,
+        -1.449862692769241
+      ],
+      "threshold": 0.85,
+      "modelFeasibleLayouts": 195,
+      "noRouteLayouts": 2,
+      "predictedReach": 0.8687773105704157,
+      "expectedEnergy": 17.22877642329258,
+      "conditionalRealizedReach": 0.8872329059829059
+    },
+    {
+      "method": "Both frontier 85%",
+      "layouts": 240,
+      "trials": 23040,
+      "reach": 0.8759982638888889,
+      "energy": 16.21065090692812,
+      "energyOnSuccess": 17.012107069034474,
+      "deltaReachVsGN": -0.03038194444444443,
+      "reachDeltaInterval": [
+        -0.04513888888888891,
+        -0.014756944444444444
+      ],
+      "deltaEnergyVsGN": -2.6950016240431234,
+      "energyDeltaInterval": [
+        -3.0741101499807195,
+        -2.295329137375877
+      ],
+      "threshold": 0.85,
+      "modelFeasibleLayouts": 239,
+      "noRouteLayouts": 0,
+      "predictedReach": 0.8843495616406775,
+      "expectedEnergy": 16.215834348256823,
+      "conditionalRealizedReach": 0.8774407252440722
+    },
+    {
+      "method": "Both frontier 95%",
+      "layouts": 240,
+      "trials": 23040,
+      "reach": 0.945703125,
+      "energy": 18.025954942160975,
+      "energyOnSuccess": 18.373369817025832,
+      "deltaReachVsGN": 0.03932291666666665,
+      "reachDeltaInterval": [
+        0.026171875000000004,
+        0.05416666666666668
+      ],
+      "deltaEnergyVsGN": -0.8796975888102673,
+      "energyDeltaInterval": [
+        -1.2176778658962282,
+        -0.5170076032692433
+      ],
+      "threshold": 0.95,
+      "modelFeasibleLayouts": 229,
+      "noRouteLayouts": 0,
+      "predictedReach": 0.9592392309876838,
+      "expectedEnergy": 18.10809058561665,
+      "conditionalRealizedReach": 0.9485534934497819
+    },
+    {
+      "method": "Both frontier 98%",
+      "layouts": 240,
+      "trials": 23040,
+      "reach": 0.9703559027777777,
+      "energy": 19.060191479227033,
+      "energyOnSuccess": 19.23126644273388,
+      "deltaReachVsGN": 0.06397569444444441,
+      "reachDeltaInterval": [
+        0.0519097222222222,
+        0.07825520833333328
+      ],
+      "deltaEnergyVsGN": 0.15453894825579956,
+      "energyDeltaInterval": [
+        -0.13705285697055308,
+        0.47329729582179303
+      ],
+      "threshold": 0.98,
+      "modelFeasibleLayouts": 186,
+      "noRouteLayouts": 0,
+      "predictedReach": 0.9805454254150391,
+      "expectedEnergy": 19.12652670452822,
+      "conditionalRealizedReach": 0.9760304659498205
+    }
+  ]
+}

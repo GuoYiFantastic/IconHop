@@ -1,0 +1,27 @@
+{
+  "started": "2026-11-12T17:45:51.545Z",
+  "firstSeed": 2200000,
+  "requested": 360000,
+  "layouts": 360000,
+  "noFirstAction": 0,
+  "flights": 360000,
+  "edits": 1079991,
+  "states": 1079991,
+  "landed": 26895,
+  "failed": 333105,
+  "groups": {
+    "standard/add": 120000,
+    "standard/move": 119997,
+    "standard/delete": 119997,
+    "sparse/add": 120000,
+    "sparse/move": 120000,
+    "sparse/delete": 119999,
+    "stress/add": 120000,
+    "stress/move": 120000,
+    "stress/delete": 119998
+  },
+  "maxStateError": 3.552713678800501e-15,
+  "maxTimeError": 1.0075273948473296e-12,
+  "maxSpeedError": 7.251976796851523e-13,
+  "updated": "2026-11-12T18:04:10.222Z"
+}

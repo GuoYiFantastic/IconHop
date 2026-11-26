@@ -1,0 +1,24 @@
+{
+  "firstSeed": 7000000,
+  "lastSeed": 7447879,
+  "layouts": 447880,
+  "episodes": 10749120,
+  "cells": 72,
+  "recordedSnapshot": "2026-11-12T16:45:44.486Z",
+  "independentReplayStart": "2026-11-12T16:46:02.773Z",
+  "independentReplayEnd": "2026-11-12T17:27:54.043Z",
+  "recordedVersion": "b093376143b16b35",
+  "replayedVersion": "f890c9420a8b6474",
+  "recordedDigest": "94d13bd758b6577b70e35db94d40d5998899508f3d18817fe01841bae965d125",
+  "replayedDigest": "94d13bd758b6577b70e35db94d40d5998899508f3d18817fe01841bae965d125",
+  "digestFields": [
+    "blocks",
+    "episodes",
+    "editChecks",
+    "mdpChecks",
+    "violations",
+    "examples",
+    "cells"
+  ],
+  "matched": true
+}

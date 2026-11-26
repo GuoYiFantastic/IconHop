@@ -1,0 +1,361 @@
+seed,kind,phase,mode,episodes,triggered,reached,fallen,stranded,reachedTriggered,changedVelocity
+610000,add,airborne,updated,16,16,4,12,0,4,0
+610000,add,airborne,frozen,16,16,4,12,0,4,0
+610000,add,after landing,updated,16,16,13,3,0,13,0
+610000,add,after landing,frozen,16,16,0,16,0,0,0
+610001,move,airborne,updated,16,16,0,16,0,0,0
+610001,move,airborne,frozen,16,16,0,16,0,0,0
+610001,move,after landing,updated,16,16,16,0,0,16,0
+610001,move,after landing,frozen,16,16,0,16,0,0,0
+610002,delete,airborne,updated,16,16,0,16,0,0,0
+610002,delete,airborne,frozen,16,16,0,16,0,0,0
+610002,delete,after landing,updated,16,16,11,5,0,11,0
+610002,delete,after landing,frozen,16,16,0,16,0,0,0
+610003,add,airborne,updated,16,16,2,14,0,2,0
+610003,add,airborne,frozen,16,16,2,14,0,2,0
+610003,add,after landing,updated,16,16,12,4,0,12,0
+610003,add,after landing,frozen,16,16,2,14,0,2,0
+610004,move,airborne,updated,16,16,0,16,0,0,0
+610004,move,airborne,frozen,16,16,0,16,0,0,0
+610004,move,after landing,updated,16,16,15,1,0,15,0
+610004,move,after landing,frozen,16,16,0,16,0,0,0
+610005,delete,airborne,updated,16,16,0,16,0,0,0
+610005,delete,airborne,frozen,16,16,0,16,0,0,0
+610005,delete,after landing,updated,16,15,10,6,0,10,0
+610005,delete,after landing,frozen,16,15,0,16,0,0,0
+610006,add,airborne,updated,16,16,1,15,0,1,0
+610006,add,airborne,frozen,16,16,1,15,0,1,0
+610006,add,after landing,updated,16,16,14,2,0,14,0
+610006,add,after landing,frozen,16,16,1,15,0,1,0
+610007,move,airborne,updated,16,16,0,16,0,0,0
+610007,move,airborne,frozen,16,16,0,16,0,0,0
+610007,move,after landing,updated,16,16,16,0,0,16,0
+610007,move,after landing,frozen,16,16,0,16,0,0,0
+610008,delete,airborne,updated,16,16,0,16,0,0,0
+610008,delete,airborne,frozen,16,16,0,16,0,0,0
+610008,delete,after landing,updated,16,15,8,8,0,8,0
+610008,delete,after landing,frozen,16,15,0,16,0,0,0
+610009,add,airborne,updated,16,16,0,16,0,0,0
+610009,add,airborne,frozen,16,16,0,16,0,0,0
+610009,add,after landing,updated,16,16,14,2,0,14,0
+610009,add,after landing,frozen,16,16,0,16,0,0,0
+610010,move,airborne,updated,16,16,0,16,0,0,0
+610010,move,airborne,frozen,16,16,0,16,0,0,0
+610010,move,after landing,updated,16,12,10,6,0,10,0
+610010,move,after landing,frozen,16,12,0,16,0,0,0
+610011,delete,airborne,updated,16,16,0,16,0,0,0
+610011,delete,airborne,frozen,16,16,0,16,0,0,0
+610011,delete,after landing,updated,16,16,7,9,0,7,0
+610011,delete,after landing,frozen,16,16,0,16,0,0,0
+610012,add,airborne,updated,16,16,0,16,0,0,0
+610012,add,airborne,frozen,16,16,0,16,0,0,0
+610012,add,after landing,updated,16,16,14,2,0,14,0
+610012,add,after landing,frozen,16,16,3,13,0,3,0
+610013,move,airborne,updated,16,16,0,16,0,0,0
+610013,move,airborne,frozen,16,16,0,16,0,0,0
+610013,move,after landing,updated,16,16,8,8,0,8,0
+610013,move,after landing,frozen,16,16,0,16,0,0,0
+610014,delete,airborne,updated,16,16,0,16,0,0,0
+610014,delete,airborne,frozen,16,16,0,16,0,0,0
+610014,delete,after landing,updated,16,15,14,2,0,14,0
+610014,delete,after landing,frozen,16,15,0,16,0,0,0
+610015,add,airborne,updated,16,16,1,15,0,1,0
+610015,add,airborne,frozen,16,16,1,15,0,1,0
+610015,add,after landing,updated,16,16,13,3,0,13,0
+610015,add,after landing,frozen,16,16,3,13,0,3,0
+610016,move,airborne,updated,16,16,0,16,0,0,0
+610016,move,airborne,frozen,16,16,0,16,0,0,0
+610016,move,after landing,updated,16,16,14,2,0,14,0
+610016,move,after landing,frozen,16,16,0,16,0,0,0
+610017,delete,airborne,updated,16,16,0,16,0,0,0
+610017,delete,airborne,frozen,16,16,0,16,0,0,0
+610017,delete,after landing,updated,16,15,0,1,15,0,0
+610017,delete,after landing,frozen,16,15,0,16,0,0,0
+610018,add,airborne,updated,16,16,0,16,0,0,0
+610018,add,airborne,frozen,16,16,0,16,0,0,0
+610018,add,after landing,updated,16,16,14,2,0,14,0
+610018,add,after landing,frozen,16,16,0,16,0,0,0
+610019,move,airborne,updated,16,16,0,16,0,0,0
+610019,move,airborne,frozen,16,16,0,16,0,0,0
+610019,move,after landing,updated,16,16,11,5,0,11,0
+610019,move,after landing,frozen,16,16,0,16,0,0,0
+610020,delete,airborne,updated,16,16,0,16,0,0,0
+610020,delete,airborne,frozen,16,16,0,16,0,0,0
+610020,delete,after landing,updated,16,15,12,4,0,12,0
+610020,delete,after landing,frozen,16,15,0,16,0,0,0
+610021,add,airborne,updated,16,16,1,15,0,1,0
+610021,add,airborne,frozen,16,16,1,15,0,1,0
+610021,add,after landing,updated,16,16,14,2,0,14,0
+610021,add,after landing,frozen,16,16,1,15,0,1,0
+610022,move,airborne,updated,16,16,0,16,0,0,0
+610022,move,airborne,frozen,16,16,0,16,0,0,0
+610022,move,after landing,updated,16,16,16,0,0,16,0
+610022,move,after landing,frozen,16,16,0,16,0,0,0
+610023,delete,airborne,updated,16,16,0,16,0,0,0
+610023,delete,airborne,frozen,16,16,0,16,0,0,0
+610023,delete,after landing,updated,16,16,12,4,0,12,0
+610023,delete,after landing,frozen,16,16,0,16,0,0,0
+610024,add,airborne,updated,16,16,0,16,0,0,0
+610024,add,airborne,frozen,16,16,0,16,0,0,0
+610024,add,after landing,updated,16,16,16,0,0,16,0
+610024,add,after landing,frozen,16,16,0,16,0,0,0
+610025,move,airborne,updated,16,16,0,16,0,0,0
+610025,move,airborne,frozen,16,16,0,16,0,0,0
+610025,move,after landing,updated,16,16,14,2,0,14,0
+610025,move,after landing,frozen,16,16,0,16,0,0,0
+610026,delete,airborne,updated,16,16,0,16,0,0,0
+610026,delete,airborne,frozen,16,16,0,16,0,0,0
+610026,delete,after landing,updated,16,16,13,3,0,13,0
+610026,delete,after landing,frozen,16,16,0,16,0,0,0
+610027,add,airborne,updated,16,16,1,15,0,1,0
+610027,add,airborne,frozen,16,16,1,15,0,1,0
+610027,add,after landing,updated,16,16,15,1,0,15,0
+610027,add,after landing,frozen,16,16,0,16,0,0,0
+610028,move,airborne,updated,16,16,0,16,0,0,0
+610028,move,airborne,frozen,16,16,0,16,0,0,0
+610028,move,after landing,updated,16,14,12,4,0,12,0
+610028,move,after landing,frozen,16,14,0,16,0,0,0
+610029,delete,airborne,updated,16,16,0,16,0,0,0
+610029,delete,airborne,frozen,16,16,0,16,0,0,0
+610029,delete,after landing,updated,16,16,6,10,0,6,0
+610029,delete,after landing,frozen,16,16,0,16,0,0,0
+610030,add,airborne,updated,16,16,0,16,0,0,0
+610030,add,airborne,frozen,16,16,0,16,0,0,0
+610030,add,after landing,updated,16,15,13,3,0,13,0
+610030,add,after landing,frozen,16,15,0,16,0,0,0
+610031,move,airborne,updated,16,16,0,16,0,0,0
+610031,move,airborne,frozen,16,16,0,16,0,0,0
+610031,move,after landing,updated,16,16,13,3,0,13,0
+610031,move,after landing,frozen,16,16,0,16,0,0,0
+610032,delete,airborne,updated,16,0,0,0,16,0,0
+610032,delete,airborne,frozen,16,0,0,0,16,0,0
+610032,delete,after landing,updated,16,0,0,0,16,0,0
+610032,delete,after landing,frozen,16,0,0,0,16,0,0
+610033,add,airborne,updated,16,16,1,15,0,1,0
+610033,add,airborne,frozen,16,16,1,15,0,1,0
+610033,add,after landing,updated,16,16,14,2,0,14,0
+610033,add,after landing,frozen,16,16,1,15,0,1,0
+610034,move,airborne,updated,16,16,0,16,0,0,0
+610034,move,airborne,frozen,16,16,0,16,0,0,0
+610034,move,after landing,updated,16,16,8,8,0,8,0
+610034,move,after landing,frozen,16,16,0,16,0,0,0
+610035,delete,airborne,updated,16,16,0,16,0,0,0
+610035,delete,airborne,frozen,16,16,0,16,0,0,0
+610035,delete,after landing,updated,16,16,13,3,0,13,0
+610035,delete,after landing,frozen,16,16,0,16,0,0,0
+610036,add,airborne,updated,16,16,1,15,0,1,0
+610036,add,airborne,frozen,16,16,1,15,0,1,0
+610036,add,after landing,updated,16,13,11,5,0,11,0
+610036,add,after landing,frozen,16,13,2,14,0,2,0
+610037,move,airborne,updated,16,16,0,16,0,0,0
+610037,move,airborne,frozen,16,16,0,16,0,0,0
+610037,move,after landing,updated,16,16,14,2,0,14,0
+610037,move,after landing,frozen,16,16,0,16,0,0,0
+610038,delete,airborne,updated,16,16,0,16,0,0,0
+610038,delete,airborne,frozen,16,16,0,16,0,0,0
+610038,delete,after landing,updated,16,16,12,4,0,12,0
+610038,delete,after landing,frozen,16,16,0,16,0,0,0
+610039,add,airborne,updated,16,16,0,16,0,0,0
+610039,add,airborne,frozen,16,16,0,16,0,0,0
+610039,add,after landing,updated,16,16,15,1,0,15,0
+610039,add,after landing,frozen,16,16,1,15,0,1,0
+610040,move,airborne,updated,16,16,0,16,0,0,0
+610040,move,airborne,frozen,16,16,0,16,0,0,0
+610040,move,after landing,updated,16,16,16,0,0,16,0
+610040,move,after landing,frozen,16,16,0,16,0,0,0
+610041,delete,airborne,updated,16,16,0,16,0,0,0
+610041,delete,airborne,frozen,16,16,0,16,0,0,0
+610041,delete,after landing,updated,16,16,12,4,0,12,0
+610041,delete,after landing,frozen,16,16,0,16,0,0,0
+610042,add,airborne,updated,16,16,1,15,0,1,0
+610042,add,airborne,frozen,16,16,1,15,0,1,0
+610042,add,after landing,updated,16,15,15,1,0,15,0
+610042,add,after landing,frozen,16,15,0,16,0,0,0
+610043,move,airborne,updated,16,16,0,16,0,0,0
+610043,move,airborne,frozen,16,16,0,16,0,0,0
+610043,move,after landing,updated,16,16,16,0,0,16,0
+610043,move,after landing,frozen,16,16,0,16,0,0,0
+610044,delete,airborne,updated,16,16,0,16,0,0,0
+610044,delete,airborne,frozen,16,16,0,16,0,0,0
+610044,delete,after landing,updated,16,16,12,4,0,12,0
+610044,delete,after landing,frozen,16,16,0,16,0,0,0
+610045,add,airborne,updated,16,16,0,16,0,0,0
+610045,add,airborne,frozen,16,16,0,16,0,0,0
+610045,add,after landing,updated,16,16,16,0,0,16,0
+610045,add,after landing,frozen,16,16,0,16,0,0,0
+610046,move,airborne,updated,16,16,0,16,0,0,0
+610046,move,airborne,frozen,16,16,0,16,0,0,0
+610046,move,after landing,updated,16,16,13,3,0,13,0
+610046,move,after landing,frozen,16,16,0,16,0,0,0
+610047,delete,airborne,updated,16,16,0,16,0,0,0
+610047,delete,airborne,frozen,16,16,0,16,0,0,0
+610047,delete,after landing,updated,16,16,15,1,0,15,0
+610047,delete,after landing,frozen,16,16,0,16,0,0,0
+610048,add,airborne,updated,16,16,0,16,0,0,0
+610048,add,airborne,frozen,16,16,0,16,0,0,0
+610048,add,after landing,updated,16,16,16,0,0,16,0
+610048,add,after landing,frozen,16,16,0,16,0,0,0
+610049,move,airborne,updated,16,16,0,16,0,0,0
+610049,move,airborne,frozen,16,16,0,16,0,0,0
+610049,move,after landing,updated,16,16,16,0,0,16,0
+610049,move,after landing,frozen,16,16,0,16,0,0,0
+610050,delete,airborne,updated,16,16,0,16,0,0,0
+610050,delete,airborne,frozen,16,16,0,16,0,0,0
+610050,delete,after landing,updated,16,16,11,5,0,11,0
+610050,delete,after landing,frozen,16,16,0,16,0,0,0
+610051,add,airborne,updated,16,16,1,15,0,1,0
+610051,add,airborne,frozen,16,16,1,15,0,1,0
+610051,add,after landing,updated,16,16,16,0,0,16,0
+610051,add,after landing,frozen,16,16,0,16,0,0,0
+610052,move,airborne,updated,16,16,0,16,0,0,0
+610052,move,airborne,frozen,16,16,0,16,0,0,0
+610052,move,after landing,updated,16,16,16,0,0,16,0
+610052,move,after landing,frozen,16,16,0,16,0,0,0
+610053,delete,airborne,updated,16,16,0,16,0,0,0
+610053,delete,airborne,frozen,16,16,0,16,0,0,0
+610053,delete,after landing,updated,16,16,15,1,0,15,0
+610053,delete,after landing,frozen,16,16,0,16,0,0,0
+610054,add,airborne,updated,16,16,0,16,0,0,0
+610054,add,airborne,frozen,16,16,0,16,0,0,0
+610054,add,after landing,updated,16,16,11,5,0,11,0
+610054,add,after landing,frozen,16,16,0,16,0,0,0
+610055,move,airborne,updated,16,16,0,16,0,0,0
+610055,move,airborne,frozen,16,16,0,16,0,0,0
+610055,move,after landing,updated,16,16,0,0,16,0,0
+610055,move,after landing,frozen,16,16,0,16,0,0,0
+610056,delete,airborne,updated,16,16,0,16,0,0,0
+610056,delete,airborne,frozen,16,16,0,16,0,0,0
+610056,delete,after landing,updated,16,15,13,3,0,13,0
+610056,delete,after landing,frozen,16,15,0,16,0,0,0
+610057,add,airborne,updated,16,16,0,16,0,0,0
+610057,add,airborne,frozen,16,16,0,16,0,0,0
+610057,add,after landing,updated,16,16,15,1,0,15,0
+610057,add,after landing,frozen,16,16,0,16,0,0,0
+610058,move,airborne,updated,16,16,0,16,0,0,0
+610058,move,airborne,frozen,16,16,0,16,0,0,0
+610058,move,after landing,updated,16,16,15,1,0,15,0
+610058,move,after landing,frozen,16,16,0,16,0,0,0
+610059,delete,airborne,updated,16,16,0,16,0,0,0
+610059,delete,airborne,frozen,16,16,0,16,0,0,0
+610059,delete,after landing,updated,16,15,11,5,0,11,0
+610059,delete,after landing,frozen,16,15,0,16,0,0,0
+610060,add,airborne,updated,16,16,0,16,0,0,0
+610060,add,airborne,frozen,16,16,0,16,0,0,0
+610060,add,after landing,updated,16,16,15,1,0,15,0
+610060,add,after landing,frozen,16,16,0,16,0,0,0
+610061,move,airborne,updated,16,16,0,16,0,0,0
+610061,move,airborne,frozen,16,16,0,16,0,0,0
+610061,move,after landing,updated,16,16,14,2,0,14,0
+610061,move,after landing,frozen,16,16,0,16,0,0,0
+610062,delete,airborne,updated,16,16,0,16,0,0,0
+610062,delete,airborne,frozen,16,16,0,16,0,0,0
+610062,delete,after landing,updated,16,16,15,1,0,15,0
+610062,delete,after landing,frozen,16,16,0,16,0,0,0
+610063,add,airborne,updated,16,16,0,16,0,0,0
+610063,add,airborne,frozen,16,16,0,16,0,0,0
+610063,add,after landing,updated,16,16,16,0,0,16,0
+610063,add,after landing,frozen,16,16,0,16,0,0,0
+610064,move,airborne,updated,16,16,0,16,0,0,0
+610064,move,airborne,frozen,16,16,0,16,0,0,0
+610064,move,after landing,updated,16,16,14,2,0,14,0
+610064,move,after landing,frozen,16,16,0,16,0,0,0
+610065,delete,airborne,updated,16,16,0,16,0,0,0
+610065,delete,airborne,frozen,16,16,0,16,0,0,0
+610065,delete,after landing,updated,16,15,12,4,0,12,0
+610065,delete,after landing,frozen,16,15,0,16,0,0,0
+610066,add,airborne,updated,16,16,0,16,0,0,0
+610066,add,airborne,frozen,16,16,0,16,0,0,0
+610066,add,after landing,updated,16,16,15,1,0,15,0
+610066,add,after landing,frozen,16,16,0,16,0,0,0
+610067,move,airborne,updated,16,16,0,16,0,0,0
+610067,move,airborne,frozen,16,16,0,16,0,0,0
+610067,move,after landing,updated,16,15,15,1,0,15,0
+610067,move,after landing,frozen,16,15,0,16,0,0,0
+610068,delete,airborne,updated,16,16,0,16,0,0,0
+610068,delete,airborne,frozen,16,16,0,16,0,0,0
+610068,delete,after landing,updated,16,16,15,1,0,15,0
+610068,delete,after landing,frozen,16,16,0,16,0,0,0
+610069,add,airborne,updated,16,16,0,16,0,0,0
+610069,add,airborne,frozen,16,16,0,16,0,0,0
+610069,add,after landing,updated,16,16,13,3,0,13,0
+610069,add,after landing,frozen,16,16,0,16,0,0,0
+610070,move,airborne,updated,16,16,0,16,0,0,0
+610070,move,airborne,frozen,16,16,0,16,0,0,0
+610070,move,after landing,updated,16,16,13,3,0,13,0
+610070,move,after landing,frozen,16,16,0,16,0,0,0
+610071,delete,airborne,updated,16,16,0,16,0,0,0
+610071,delete,airborne,frozen,16,16,0,16,0,0,0
+610071,delete,after landing,updated,16,16,0,0,16,0,0
+610071,delete,after landing,frozen,16,16,0,16,0,0,0
+610072,add,airborne,updated,16,16,1,15,0,1,0
+610072,add,airborne,frozen,16,16,1,15,0,1,0
+610072,add,after landing,updated,16,16,13,3,0,13,0
+610072,add,after landing,frozen,16,16,0,16,0,0,0
+610073,move,airborne,updated,16,16,0,16,0,0,0
+610073,move,airborne,frozen,16,16,0,16,0,0,0
+610073,move,after landing,updated,16,15,10,6,0,10,0
+610073,move,after landing,frozen,16,15,0,16,0,0,0
+610074,delete,airborne,updated,16,16,0,16,0,0,0
+610074,delete,airborne,frozen,16,16,0,16,0,0,0
+610074,delete,after landing,updated,16,13,8,8,0,8,0
+610074,delete,after landing,frozen,16,13,0,16,0,0,0
+610075,add,airborne,updated,16,16,0,16,0,0,0
+610075,add,airborne,frozen,16,16,0,16,0,0,0
+610075,add,after landing,updated,16,16,14,2,0,14,0
+610075,add,after landing,frozen,16,16,0,16,0,0,0
+610076,move,airborne,updated,16,16,0,16,0,0,0
+610076,move,airborne,frozen,16,16,0,16,0,0,0
+610076,move,after landing,updated,16,16,12,4,0,12,0
+610076,move,after landing,frozen,16,16,0,16,0,0,0
+610077,delete,airborne,updated,16,16,0,16,0,0,0
+610077,delete,airborne,frozen,16,16,0,16,0,0,0
+610077,delete,after landing,updated,16,16,13,3,0,13,0
+610077,delete,after landing,frozen,16,16,0,16,0,0,0
+610078,add,airborne,updated,16,16,3,13,0,3,0
+610078,add,airborne,frozen,16,16,3,13,0,3,0
+610078,add,after landing,updated,16,15,12,4,0,12,0
+610078,add,after landing,frozen,16,15,0,16,0,0,0
+610079,move,airborne,updated,16,16,0,16,0,0,0
+610079,move,airborne,frozen,16,16,0,16,0,0,0
+610079,move,after landing,updated,16,16,12,4,0,12,0
+610079,move,after landing,frozen,16,16,0,16,0,0,0
+610080,delete,airborne,updated,16,16,0,16,0,0,0
+610080,delete,airborne,frozen,16,16,0,16,0,0,0
+610080,delete,after landing,updated,16,16,11,5,0,11,0
+610080,delete,after landing,frozen,16,16,0,16,0,0,0
+610081,add,airborne,updated,16,16,1,15,0,1,0
+610081,add,airborne,frozen,16,16,1,15,0,1,0
+610081,add,after landing,updated,16,16,11,5,0,11,0
+610081,add,after landing,frozen,16,16,0,16,0,0,0
+610082,move,airborne,updated,16,16,0,16,0,0,0
+610082,move,airborne,frozen,16,16,0,16,0,0,0
+610082,move,after landing,updated,16,16,12,4,0,12,0
+610082,move,after landing,frozen,16,16,0,16,0,0,0
+610083,delete,airborne,updated,16,16,0,16,0,0,0
+610083,delete,airborne,frozen,16,16,0,16,0,0,0
+610083,delete,after landing,updated,16,16,11,5,0,11,0
+610083,delete,after landing,frozen,16,16,0,16,0,0,0
+610084,add,airborne,updated,16,16,0,16,0,0,0
+610084,add,airborne,frozen,16,16,0,16,0,0,0
+610084,add,after landing,updated,16,16,13,3,0,13,0
+610084,add,after landing,frozen,16,16,2,14,0,2,0
+610085,move,airborne,updated,16,16,0,16,0,0,0
+610085,move,airborne,frozen,16,16,0,16,0,0,0
+610085,move,after landing,updated,16,16,15,1,0,15,0
+610085,move,after landing,frozen,16,16,0,16,0,0,0
+610086,delete,airborne,updated,16,16,0,16,0,0,0
+610086,delete,airborne,frozen,16,16,0,16,0,0,0
+610086,delete,after landing,updated,16,16,12,4,0,12,0
+610086,delete,after landing,frozen,16,16,0,16,0,0,0
+610087,add,airborne,updated,16,16,0,16,0,0,0
+610087,add,airborne,frozen,16,16,0,16,0,0,0
+610087,add,after landing,updated,16,16,15,1,0,15,0
+610087,add,after landing,frozen,16,16,0,16,0,0,0
+610088,move,airborne,updated,16,16,0,16,0,0,0
+610088,move,airborne,frozen,16,16,0,16,0,0,0
+610088,move,after landing,updated,16,16,13,3,0,13,0
+610088,move,after landing,frozen,16,16,0,16,0,0,0
+610089,delete,airborne,updated,16,16,0,16,0,0,0
+610089,delete,airborne,frozen,16,16,0,16,0,0,0
+610089,delete,after landing,updated,16,16,15,1,0,15,0
+610089,delete,after landing,frozen,16,16,0,16,0,0,0

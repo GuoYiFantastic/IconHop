@@ -1,0 +1,734 @@
+{
+  "version": "b093376143b16b35",
+  "started": "2026-11-12T15:32:12.863Z",
+  "blocks": 3942650,
+  "episodes": 94623600,
+  "editChecks": 3942650,
+  "mdpChecks": 3942650,
+  "violations": 0,
+  "examples": [],
+  "cells": {
+    "standard/0.5/24/vi": {
+      "layouts": 109519,
+      "episodes": 1314228,
+      "reached": 1304637,
+      "fallen": 4779,
+      "stranded": 4812,
+      "energy": 24599187.057769235,
+      "cost": 16751316.443613676,
+      "squaredLayoutReach": 108409.84027778187
+    },
+    "standard/0.5/24/astar": {
+      "layouts": 109519,
+      "episodes": 1314228,
+      "reached": 1024540,
+      "fallen": 284876,
+      "stranded": 4812,
+      "energy": 17347836.182638377,
+      "cost": 37281366.533821076,
+      "squaredLayoutReach": 72041.83333336748
+    },
+    "sparse/0.5/24/vi": {
+      "layouts": 109519,
+      "episodes": 1314228,
+      "reached": 1301460,
+      "fallen": 12744,
+      "stranded": 24,
+      "energy": 21615359.572845116,
+      "cost": 15102940.970462603,
+      "squaredLayoutReach": 107535.34722223562
+    },
+    "sparse/0.5/24/astar": {
+      "layouts": 109519,
+      "episodes": 1314228,
+      "reached": 1151431,
+      "fallen": 162773,
+      "stranded": 24,
+      "energy": 18489977.413225383,
+      "cost": 26599177.21145304,
+      "squaredLayoutReach": 87849.78472223955
+    },
+    "stress/0.5/24/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 727353,
+      "fallen": 241467,
+      "stranded": 345396,
+      "energy": 15109983.391384106,
+      "cost": 62655374.88025134,
+      "squaredLayoutReach": 48899.562500026885
+    },
+    "stress/0.5/24/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 536681,
+      "fallen": 432139,
+      "stranded": 345396,
+      "energy": 12106316.845607277,
+      "cost": 77910224.34080245,
+      "squaredLayoutReach": 28416.979166660032
+    },
+    "standard/1/24/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 1173113,
+      "fallen": 136711,
+      "stranded": 4392,
+      "energy": 23918849.296462316,
+      "cost": 28195361.118573744,
+      "squaredLayoutReach": 89034.97916670362
+    },
+    "standard/1/24/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 634854,
+      "fallen": 674970,
+      "stranded": 4392,
+      "energy": 15657013.136639876,
+      "cost": 71338885.47417274,
+      "squaredLayoutReach": 30890.861111096212
+    },
+    "sparse/1/24/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 1050629,
+      "fallen": 263587,
+      "stranded": 0,
+      "energy": 20501853.061036695,
+      "cost": 37054181.74872633,
+      "squaredLayoutReach": 72874.93750004678
+    },
+    "sparse/1/24/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 789045,
+      "fallen": 525171,
+      "stranded": 0,
+      "energy": 16971759.894204002,
+      "cost": 58343412.927202515,
+      "squaredLayoutReach": 45231.56250001708
+    },
+    "stress/1/24/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 277575,
+      "fallen": 693501,
+      "stranded": 343140,
+      "energy": 11432478.379806638,
+      "cost": 100917074.76386763,
+      "squaredLayoutReach": 9158.826388888587
+    },
+    "stress/1/24/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 180633,
+      "fallen": 790443,
+      "stranded": 343140,
+      "energy": 9438077.348856112,
+      "cost": 108347585.64785886,
+      "squaredLayoutReach": 4276.1319444447645
+    },
+    "standard/1.5/24/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 815944,
+      "fallen": 493844,
+      "stranded": 4428,
+      "energy": 21313184.21281902,
+      "cost": 58770751.48525251,
+      "squaredLayoutReach": 46001.26388891072
+    },
+    "standard/1.5/24/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 354217,
+      "fallen": 955571,
+      "stranded": 4428,
+      "energy": 13862419.89583213,
+      "cost": 95494328.16516742,
+      "squaredLayoutReach": 10959.298611112388
+    },
+    "sparse/1.5/24/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 643186,
+      "fallen": 671006,
+      "stranded": 24,
+      "energy": 17732930.193522118,
+      "cost": 72084782.97222666,
+      "squaredLayoutReach": 30218.402777760548
+    },
+    "sparse/1.5/24/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 442427,
+      "fallen": 871765,
+      "stranded": 24,
+      "energy": 14743123.975472407,
+      "cost": 88210084.6697358,
+      "squaredLayoutReach": 16062.020833337696
+    },
+    "stress/1.5/24/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 97582,
+      "fallen": 877310,
+      "stranded": 339324,
+      "energy": 8980494.185477126,
+      "cost": 115590883.65405071,
+      "squaredLayoutReach": 1620.9722222218386
+    },
+    "stress/1.5/24/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 71287,
+      "fallen": 903605,
+      "stranded": 339324,
+      "energy": 8011143.183142799,
+      "cost": 117298279.32417029,
+      "squaredLayoutReach": 986.9236111116542
+    },
+    "standard/2/24/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 480142,
+      "fallen": 829646,
+      "stranded": 4428,
+      "energy": 18061633.905719552,
+      "cost": 86984433.8232958,
+      "squaredLayoutReach": 17779.194444443463
+    },
+    "standard/2/24/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 198967,
+      "fallen": 1110821,
+      "stranded": 4428,
+      "energy": 12417036.963912627,
+      "cost": 108559613.31368634,
+      "squaredLayoutReach": 4107.006944444492
+    },
+    "sparse/2/24/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 359283,
+      "fallen": 954921,
+      "stranded": 12,
+      "energy": 15090146.676879773,
+      "cost": 96023913.22169127,
+      "squaredLayoutReach": 10828.36805555692
+    },
+    "sparse/2/24/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 245344,
+      "fallen": 1068860,
+      "stranded": 12,
+      "energy": 12954092.30190901,
+      "cost": 104849994.9048954,
+      "squaredLayoutReach": 5770.333333331076
+    },
+    "stress/2/24/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 38771,
+      "fallen": 931021,
+      "stranded": 344424,
+      "energy": 7587299.430271084,
+      "cost": 119996330.99487628,
+      "squaredLayoutReach": 425.85416666682175
+    },
+    "stress/2/24/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 32896,
+      "fallen": 936896,
+      "stranded": 344424,
+      "energy": 7163186.866162458,
+      "cost": 120209669.42895381,
+      "squaredLayoutReach": 337.2638888890174
+    },
+    "standard/0.5/64/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 1306262,
+      "fallen": 3382,
+      "stranded": 4572,
+      "energy": 25083123.702466436,
+      "cost": 16917709.650791276,
+      "squaredLayoutReach": 108637.79166666976
+    },
+    "standard/0.5/64/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 1023997,
+      "fallen": 285647,
+      "stranded": 4572,
+      "energy": 17343132.669341672,
+      "cost": 37326681.66647446,
+      "squaredLayoutReach": 71998.2291667005
+    },
+    "sparse/0.5/64/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 1301824,
+      "fallen": 12380,
+      "stranded": 12,
+      "energy": 21651644.166399386,
+      "cost": 15092908.59595045,
+      "squaredLayoutReach": 107586.50000001234
+    },
+    "sparse/0.5/64/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 1151150,
+      "fallen": 163054,
+      "stranded": 12,
+      "energy": 18494378.049395677,
+      "cost": 26626888.56662685,
+      "squaredLayoutReach": 87830.0694444611
+    },
+    "stress/0.5/64/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 745656,
+      "fallen": 224016,
+      "stranded": 344544,
+      "energy": 15349650.82247311,
+      "cost": 61158417.62917917,
+      "squaredLayoutReach": 51001.90277780733
+    },
+    "stress/0.5/64/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 537240,
+      "fallen": 432432,
+      "stranded": 344544,
+      "energy": 12124644.566149127,
+      "cost": 77871551.2729071,
+      "squaredLayoutReach": 28435.638888882022
+    },
+    "standard/1/64/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 1191497,
+      "fallen": 118411,
+      "stranded": 4308,
+      "energy": 24499196.861757644,
+      "cost": 26912605.083193675,
+      "squaredLayoutReach": 91627.72916670378
+    },
+    "standard/1/64/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 635650,
+      "fallen": 674258,
+      "stranded": 4308,
+      "energy": 15667151.646068415,
+      "cost": 71273703.77485229,
+      "squaredLayoutReach": 30927.888888874233
+    },
+    "sparse/1/64/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 1051186,
+      "fallen": 263030,
+      "stranded": 0,
+      "energy": 20547906.371208377,
+      "cost": 37034334.68099175,
+      "squaredLayoutReach": 72915.9861111581
+    },
+    "sparse/1/64/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 785713,
+      "fallen": 528503,
+      "stranded": 0,
+      "energy": 16942210.85761885,
+      "cost": 58624953.45128199,
+      "squaredLayoutReach": 44852.812500016036
+    },
+    "stress/1/64/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 288409,
+      "fallen": 680147,
+      "stranded": 345660,
+      "energy": 11571021.034240553,
+      "cost": 100029509.68555458,
+      "squaredLayoutReach": 9784.687500000318
+    },
+    "stress/1/64/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 180242,
+      "fallen": 788314,
+      "stranded": 345660,
+      "energy": 9402798.79561697,
+      "cost": 108359607.18438846,
+      "squaredLayoutReach": 4263.819444444765
+    },
+    "standard/1.5/64/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 848276,
+      "fallen": 461428,
+      "stranded": 4512,
+      "energy": 21933196.647458218,
+      "cost": 56259418.98344915,
+      "squaredLayoutReach": 49385.55555558605
+    },
+    "standard/1.5/64/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 353464,
+      "fallen": 956240,
+      "stranded": 4512,
+      "energy": 13850730.532265685,
+      "cost": 95554669.11565213,
+      "squaredLayoutReach": 10931.055555556959
+    },
+    "sparse/1.5/64/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 644544,
+      "fallen": 669660,
+      "stranded": 12,
+      "energy": 17757884.292671453,
+      "cost": 71979589.66246659,
+      "squaredLayoutReach": 30367.37499998311
+    },
+    "sparse/1.5/64/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 443469,
+      "fallen": 870735,
+      "stranded": 12,
+      "energy": 14748667.950775843,
+      "cost": 88120470.8858459,
+      "squaredLayoutReach": 16115.354166671048
+    },
+    "stress/1.5/64/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 100942,
+      "fallen": 869258,
+      "stranded": 344016,
+      "energy": 9046597.25932145,
+      "cost": 115331025.00802654,
+      "squaredLayoutReach": 1710.4166666662263
+    },
+    "stress/1.5/64/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 70922,
+      "fallen": 899278,
+      "stranded": 344016,
+      "energy": 7975433.960540645,
+      "cost": 117306174.75106765,
+      "squaredLayoutReach": 981.1388888894322
+    },
+    "standard/2/64/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 504246,
+      "fallen": 805206,
+      "stranded": 4764,
+      "energy": 18556930.956499375,
+      "cost": 85137477.53188159,
+      "squaredLayoutReach": 19454.1944444387
+    },
+    "standard/2/64/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 198844,
+      "fallen": 1110608,
+      "stranded": 4764,
+      "energy": 12413673.788462443,
+      "cost": 108568719.63057691,
+      "squaredLayoutReach": 4093.375000000013
+    },
+    "sparse/2/64/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 360033,
+      "fallen": 954147,
+      "stranded": 36,
+      "energy": 15119486.312040966,
+      "cost": 95976671.25845772,
+      "squaredLayoutReach": 10866.965277779069
+    },
+    "sparse/2/64/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 246085,
+      "fallen": 1068095,
+      "stranded": 36,
+      "energy": 12970762.076834343,
+      "cost": 104794625.74038872,
+      "squaredLayoutReach": 5793.229166664396
+    },
+    "stress/2/64/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 40296,
+      "fallen": 929928,
+      "stranded": 343992,
+      "energy": 7650986.099840992,
+      "cost": 119902068.79627417,
+      "squaredLayoutReach": 446.79166666682664
+    },
+    "stress/2/64/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 33036,
+      "fallen": 937188,
+      "stranded": 343992,
+      "energy": 7170847.363368434,
+      "cost": 120201981.39033933,
+      "squaredLayoutReach": 339.1944444445732
+    },
+    "standard/0.5/128/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 1306706,
+      "fallen": 3070,
+      "stranded": 4440,
+      "energy": 25296030.13971231,
+      "cost": 17014111.384458717,
+      "squaredLayoutReach": 108691.95833333633
+    },
+    "standard/0.5/128/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 1024265,
+      "fallen": 285511,
+      "stranded": 4440,
+      "energy": 17353197.906368285,
+      "cost": 37308635.93808203,
+      "squaredLayoutReach": 72051.71527781225
+    },
+    "sparse/0.5/128/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 1301999,
+      "fallen": 12205,
+      "stranded": 12,
+      "energy": 21669314.10510527,
+      "cost": 15088462.423419468,
+      "squaredLayoutReach": 107612.29861112361
+    },
+    "sparse/0.5/128/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 1149699,
+      "fallen": 164505,
+      "stranded": 12,
+      "energy": 18474232.699432947,
+      "cost": 26744235.543027896,
+      "squaredLayoutReach": 87639.60416668405
+    },
+    "stress/0.5/128/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 751757,
+      "fallen": 219247,
+      "stranded": 343212,
+      "energy": 15440331.63433733,
+      "cost": 60667184.95155705,
+      "squaredLayoutReach": 51702.14583336371
+    },
+    "stress/0.5/128/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 536954,
+      "fallen": 434050,
+      "stranded": 343212,
+      "energy": 12122352.161013786,
+      "cost": 77896400.67935875,
+      "squaredLayoutReach": 28412.8888888821
+    },
+    "standard/1/128/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 1198144,
+      "fallen": 111428,
+      "stranded": 4644,
+      "energy": 24763622.442679252,
+      "cost": 26484547.212679252,
+      "squaredLayoutReach": 92608.01388892668
+    },
+    "standard/1/128/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 635361,
+      "fallen": 674211,
+      "stranded": 4644,
+      "energy": 15657884.275587423,
+      "cost": 71293904.42480095,
+      "squaredLayoutReach": 30914.562499985175
+    },
+    "sparse/1/128/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 1053321,
+      "fallen": 260871,
+      "stranded": 24,
+      "energy": 20555660.441500317,
+      "cost": 36846396.6344511,
+      "squaredLayoutReach": 73199.64583337984
+    },
+    "sparse/1/128/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 788153,
+      "fallen": 526039,
+      "stranded": 24,
+      "energy": 16957658.829179585,
+      "cost": 58414584.474591635,
+      "squaredLayoutReach": 45143.92361112744
+    },
+    "stress/1/128/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 293388,
+      "fallen": 676404,
+      "stranded": 344424,
+      "energy": 11676280.731422083,
+      "cost": 99648448.05140659,
+      "squaredLayoutReach": 10098.972222222863
+    },
+    "stress/1/128/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 180392,
+      "fallen": 789400,
+      "stranded": 344424,
+      "energy": 9423616.532601856,
+      "cost": 108359617.80238278,
+      "squaredLayoutReach": 4277.750000000279
+    },
+    "standard/1.5/128/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 861249,
+      "fallen": 447999,
+      "stranded": 4968,
+      "energy": 22246643.24404082,
+      "cost": 55292224.515363105,
+      "squaredLayoutReach": 50830.39583336711
+    },
+    "standard/1.5/128/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 353106,
+      "fallen": 956142,
+      "stranded": 4968,
+      "energy": 13840787.832793962,
+      "cost": 95579264.26052658,
+      "squaredLayoutReach": 10924.402777779178
+    },
+    "sparse/1.5/128/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 645491,
+      "fallen": 668713,
+      "stranded": 12,
+      "energy": 17777121.79022552,
+      "cost": 71905859.74433243,
+      "squaredLayoutReach": 30412.11805553838
+    },
+    "sparse/1.5/128/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 442316,
+      "fallen": 871888,
+      "stranded": 12,
+      "energy": 14745370.429135395,
+      "cost": 88220593.93216148,
+      "squaredLayoutReach": 16074.34722222663
+    },
+    "stress/1.5/128/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 102592,
+      "fallen": 867488,
+      "stranded": 344136,
+      "energy": 9083508.19904993,
+      "cost": 115206391.42290957,
+      "squaredLayoutReach": 1764.499999999511
+    },
+    "stress/1.5/128/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 70793,
+      "fallen": 899287,
+      "stranded": 344136,
+      "energy": 7972299.143075331,
+      "cost": 117315816.55772471,
+      "squaredLayoutReach": 984.7708333338719
+    },
+    "standard/2/128/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 513985,
+      "fallen": 795635,
+      "stranded": 4596,
+      "energy": 18838311.340583343,
+      "cost": 84444216.12326288,
+      "squaredLayoutReach": 20147.09027777021
+    },
+    "standard/2/128/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 199593,
+      "fallen": 1110027,
+      "stranded": 4596,
+      "energy": 12413808.081601981,
+      "cost": 108501008.15591496,
+      "squaredLayoutReach": 4124.97916666662
+    },
+    "sparse/2/128/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 361009,
+      "fallen": 953195,
+      "stranded": 12,
+      "energy": 15126148.216388991,
+      "cost": 95892737.96568657,
+      "squaredLayoutReach": 10910.048611112557
+    },
+    "sparse/2/128/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 245622,
+      "fallen": 1068582,
+      "stranded": 12,
+      "energy": 12952599.527865034,
+      "cost": 104823450.63711299,
+      "squaredLayoutReach": 5779.374999997779
+    },
+    "stress/2/128/vi": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 40647,
+      "fallen": 927729,
+      "stranded": 345840,
+      "energy": 7661212.297805276,
+      "cost": 119877062.23522055,
+      "squaredLayoutReach": 449.46527777793995
+    },
+    "stress/2/128/astar": {
+      "layouts": 109518,
+      "episodes": 1314216,
+      "reached": 33008,
+      "fallen": 935368,
+      "stranded": 345840,
+      "energy": 7160009.836252569,
+      "cost": 120196524.70354445,
+      "squaredLayoutReach": 337.9166666667919
+    }
+  },
+  "activeMilliseconds": 24708139,
+  "updated": "2026-11-12T22:24:01.005Z"
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "phase": "airborne",
+    "mode": "updated",
+    "episodes": 1440,
+    "triggered": 1424,
+    "reached": 19,
+    "fallen": 1405,
+    "stranded": 16,
+    "reachedTriggered": 19,
+    "continuityViolations": 0
+  },
+  {
+    "phase": "airborne",
+    "mode": "frozen",
+    "episodes": 1440,
+    "triggered": 1424,
+    "reached": 19,
+    "fallen": 1405,
+    "stranded": 16,
+    "reachedTriggered": 19,
+    "continuityViolations": 0
+  },
+  {
+    "phase": "after landing",
+    "mode": "updated",
+    "episodes": 1440,
+    "triggered": 1399,
+    "reached": 1126,
+    "fallen": 251,
+    "stranded": 63,
+    "reachedTriggered": 1126,
+    "continuityViolations": 0
+  },
+  {
+    "phase": "after landing",
+    "mode": "frozen",
+    "episodes": 1440,
+    "triggered": 1399,
+    "reached": 16,
+    "fallen": 1408,
+    "stranded": 16,
+    "reachedTriggered": 16,
+    "continuityViolations": 0
+  }
+]

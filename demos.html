@@ -1,0 +1,27 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>IconHop · Demo player</title>
+<link rel="stylesheet" href="style.css"><style>
+.player{max-width:1200px;margin:0 auto;padding:22px 22px 34px}.player canvas{position:static;width:100%;height:auto;aspect-ratio:16/9;background:#f9f8ed;border-radius:12px;border:1px solid var(--line)}
+.player-controls{display:flex;align-items:center;gap:10px;margin-top:14px;flex-wrap:wrap}.player-controls input{flex:1;accent-color:var(--teal);min-width:90px}.player-controls output{font-variant-numeric:tabular-nums;font-size:13px}.mast a{margin-left:auto;color:var(--teal);font-size:14px;font-weight:650}
+</style></head><body><header class="mast"><div class="brand"><i class="mascot"></i><h1>IconHop</h1></div><span class="course">Presentation demos</span><a href="index.html">Open sandbox ↗</a></header>
+<main class="player"><div class="scene-head"><div><p class="eyebrow">Demo player</p><h2 id="heading">First jump</h2></div><label class="chooser">Recording<select id="chapter"></select></label></div>
+<canvas id="film" width="1280" height="720" aria-label="Playback of actual simulated jumps" role="img"></canvas>
+<div class="player-controls"><button id="play">▶ Play</button><button id="replay">Replay</button><input id="seek" type="range" min="0" step=".01" value="0" aria-label="Playback position"><output id="stamp"></output><button id="full">Full screen</button></div></main>
+<script src="physics.js"></script><script src="control.js"></script><script src="kkt-plot.js"></script><script src="planner.js"></script><script src="scenes.js"></script><script src="ground.js"></script><script src="engine.js"></script><script src="render.js"></script><script src="film.js"></script>
+<script>
+const canvas=document.getElementById('film'),player=new HopFilm.Player(canvas),chapter=document.getElementById('chapter'),seek=document.getElementById('seek');
+let playing=false,t=0,previous=performance.now();
+const requested=new URLSearchParams(location.search).get('chapter');
+const visible=['play','work','stack','walk','first','drop','wind','tower'];
+if(['kkt','rest'].includes(requested))visible.push(requested);
+for(const id of visible){const c=HopFilm.chapters.find(c=>c.id===id);chapter.add(new Option(c.title,c.id));}
+function sync(){player.seek(t);seek.value=t;document.getElementById('stamp').textContent=t.toFixed(1)+' / '+player.duration.toFixed(1)+' s';document.getElementById('play').textContent=playing?'Pause':'▶ Play';}
+function choose(id){chapter.value=id;player.load(id);seek.max=player.duration;t=0;playing=false;document.getElementById('heading').textContent=player.chapter.title;sync();}
+chapter.onchange=()=>choose(chapter.value);seek.oninput=()=>{t=Number(seek.value);playing=false;sync();};
+document.getElementById('play').onclick=()=>{if(t>=player.duration)t=0;playing=!playing;previous=performance.now();sync();};
+document.getElementById('replay').onclick=()=>{t=0;playing=true;previous=performance.now();sync();};
+document.getElementById('full').onclick=()=>canvas.requestFullscreen();
+choose(visible.includes(requested)?requested:'play');
+player.ready.then(()=>{if(chapter.value==='play'&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
+  playing=true;previous=performance.now();}sync();});
+function tick(now){if(playing){t=Math.min(player.duration,t+Math.min(.12,(now-previous)/1000));if(t>=player.duration)playing=false;sync();}previous=now;requestAnimationFrame(tick);}requestAnimationFrame(tick);
+</script></body></html>
