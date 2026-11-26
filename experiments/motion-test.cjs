@@ -28,6 +28,20 @@ test('the staggered desktop route settles at Work across frame rates',()=>{
     assert.equal(r.goal,'work');
   }
 });
+test('moving Step connects the taskbar to an otherwise unreachable Archive',()=>{
+  const run=new E.Run(S.get('bridge'),{free:true,barWidth:18.6});
+  const archive=run.surface('archive');
+  run.select('archive',{pin:true,x:archive.x});
+  assert.equal(run.current,G.BAR);
+  assert.equal(run.position().x,archive.x);
+  assert.equal(run.plan().value,Infinity);
+  run.edit(run.icons.map(icon=>icon.id==='step'?{...icon,x:9.76,y:2.72}:icon));
+  assert.equal(run.goal,'archive');
+  assert.equal(run.pinnedGoalName,'Archive');
+  assert.deepEqual(run.plan().path.filter(edge=>edge.q).map(edge=>edge.to),['step','archive']);
+  replay(run,60);
+  assert.deepEqual(run.history.map(landing=>landing.actual),['step','archive']);
+});
 test('reported desktop: a descent to the taskbar, walking and a running takeoff reach Work',()=>{
   for(const hz of [24,60,144]){
     const r=new E.Run(S.get('runup'),{free:true,barWidth:17.33});

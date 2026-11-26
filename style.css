@@ -7,7 +7,7 @@ select{padding:5px 26px 5px 10px;max-width:100%}input[type=number]{padding:5px 9
 /* Keep the world scale independent of the wrapping route, caption and contact history. */
 html:has(#world){scrollbar-gutter:stable}
 .desktop{align-self:start}
-#screen{position:relative;width:100%;flex:none;min-height:270px;aspect-ratio:16/9;background:#192341}canvas{width:100%;height:100%;display:block;position:absolute;inset:0;touch-action:none}
+#screen{position:relative;width:100%;flex:none;min-height:270px;aspect-ratio:16/9;background:#113c83}canvas{width:100%;height:100%;display:block;position:absolute;inset:0;touch-action:none}
 .caption{gap:9px;padding:12px;min-height:48px;font-size:13px;line-height:1.35}.mode{background:#dbede1;color:#145c46;padding:3px 8px;border-radius:4px;font-size:11px;font-weight:750;white-space:nowrap}
 .panel{padding:20px;display:flex;flex-direction:column;gap:12px}.panel h3,.lab h3{font-size:20px;letter-spacing:-.65px;margin:0}.energy-label{justify-content:space-between;font-size:13px;margin-top:2px}.meter{height:8px;border-radius:8px;overflow:hidden;background:#e4e9dd;margin-top:-6px}.meter>div{height:100%;background:#309379}.actions{gap:7px}.actions>*{flex:1;white-space:nowrap}.actions .primary{background:#0d655e;color:white;border-color:#0d655e;flex:1.25}.actions .primary:hover:not(:disabled){background:#084c46}.minor button{font-size:12px;min-height:31px}.line{height:1px;background:var(--line)}.panel .small-label{margin:0}.panel #path{font-size:14px;font-weight:600;line-height:1.45;margin:-6px 0 0}
 .metrics{display:grid;grid-template-columns:1fr 1fr;gap:10px}.metrics span,.metrics b{display:block;font-size:11px}.metrics b{font-size:14px;margin-top:3px}.metrics span{color:#526962}
@@ -37,4 +37,16 @@ html:has(#world){scrollbar-gutter:stable}
 .shell-menu [data-action=rename]::before{content:"✎"}.shell-menu [data-action=restore]::before,.shell-menu [data-action=undo]::before{content:"↶"}
 .shell-menu [data-action=folder]::before,.shell-menu [data-action=note]::before{content:"";height:16px;background:center/contain no-repeat url('assets/desktop-folder.png')}
 .shell-menu [data-action=note]::before{background-image:url('assets/desktop-note.png')}
+
+:root:has(#world){color:#1a3152;background:linear-gradient(150deg,#edf5ff 0%,#f9fbfe 54%,#e8f3fc 100%);--ink:#1a3152;--teal:#125a9a;--paper:#fbfdff;--line:#cfdeed}
+:root:has(#world) .mast{background:#f9fcffda}
+:root:has(#world) .desktop{border-color:#b0c9e2;border-radius:16px;box-shadow:0 18px 34px -24px #1b4d92a8,0 3px 10px #19457726}
+:root:has(#world) .panel{border-color:#d2e3f1;background:#ffffffd6;box-shadow:0 9px 24px -23px #21498290}
+:root:has(#world) .caption{background:#f4f9ff;color:#2c4b66}
+:root:has(#world) .mode{background:#e1eefc;color:#195a95}
+:root:has(#world) .actions .primary{background:#1963aa;border-color:#1963aa}
+:root:has(#world) .actions .primary:hover:not(:disabled){background:#144d88}
+:root:has(#world) button:hover:not(:disabled){background:#e5effa}
+:root:has(#world) .eyebrow,:root:has(#world) .small-label{color:#4d6e92}
+:root:has(#world) .shell-menu{background:#f9fcfff7;border-color:#cbddef;box-shadow:0 10px 28px #122b5e4d}
 

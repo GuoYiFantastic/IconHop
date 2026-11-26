@@ -3,7 +3,7 @@
   'use strict';
   const P=root.HopPhysics;
   const images={};
-  const files={home:'desktop-home.png',folder:'desktop-folder.png',note:'desktop-note.png',
+  const files={wallpaper:'sapphire-sweep.jpg',home:'desktop-home.png',folder:'desktop-folder.png',note:'desktop-note.png',
     photo:'desktop-photo.png',music:'desktop-music.png',edge:'desktop-edge.png',bin:'desktop-bin.png'};
   const ready=Promise.all(Object.entries(files).map(([key,file])=>{
     const image=new Image();images[key]=image;image.src='assets/'+file;return image.decode();
@@ -50,30 +50,30 @@
     const b=iconBox(v,p);
     ctx.save();
     let label=p.name||p.id;
-    ctx.font=b.fontSize+'px "Segoe UI", Arial';
+    ctx.font='600 '+b.fontSize+'px "Segoe UI", Arial';
     ctx.textAlign='center';
     if(selected){
-      box(ctx,b.x,b.y,b.width,b.height,3,'rgba(130,193,250,.38)');
-      ctx.strokeStyle='rgba(237,248,255,.75)';ctx.lineWidth=1;ctx.stroke();
+      box(ctx,b.x,b.y,b.width,b.height,7,'rgba(220,240,255,.25)');
+      ctx.strokeStyle='rgba(237,248,255,.66)';ctx.lineWidth=1;ctx.stroke();
     }
+    ctx.shadowColor='rgba(5,24,63,.38)';ctx.shadowBlur=4;ctx.shadowOffsetY=2;
     glyph(ctx,p.kind,b.cx-b.size/2,b.y+3,b.size);
     if(ctx.measureText(label).width>b.width-2){
       while(label.length&&ctx.measureText(label+'…').width>b.width-2)label=label.slice(0,-1);
       label+='…';
     }
     const labelY=b.y+3+b.size+b.fontSize;
-    ctx.shadowColor='#091f34';ctx.shadowBlur=3;ctx.shadowOffsetY=1;
-    ctx.strokeStyle='rgba(10,28,49,.55)';ctx.lineWidth=2.3;ctx.strokeText(label,b.cx,labelY);
+    ctx.shadowColor='#051833';ctx.shadowBlur=4;ctx.shadowOffsetY=1;
+    ctx.strokeStyle='rgba(5,24,55,.62)';ctx.lineWidth=2;ctx.strokeText(label,b.cx,labelY);
     ctx.fillStyle='white';ctx.fillText(label,b.cx,labelY);ctx.restore();
   }
   function desktop(ctx,v) {
-    const gradient=ctx.createLinearGradient(0,0,v.w,v.bottom);
-    gradient.addColorStop(0,'#192341');gradient.addColorStop(.53,'#35476e');gradient.addColorStop(1,'#2d606e');
-    ctx.fillStyle=gradient;ctx.fillRect(0,0,v.w,v.h);
-    ctx.fillStyle='rgba(233,245,252,.22)';
-    for(let y=21;y<v.bottom;y+=28)for(let x=21;x<v.w;x+=28){
-      ctx.beginPath();ctx.arc(x,y,1.1,0,2*Math.PI);ctx.fill();
-    }
+    ctx.fillStyle='#113c83';ctx.fillRect(0,0,v.w,v.h);
+    const image=images.wallpaper;
+    if(!image.complete||!image.naturalWidth)return;
+    const scale=Math.max(v.w/image.naturalWidth,v.h/image.naturalHeight);
+    const width=image.naturalWidth*scale,height=image.naturalHeight*scale;
+    ctx.drawImage(image,(v.w-width)/2,(v.h-height)/2,width,height);
   }
   function targetMarker(ctx,x,y,above){
     ctx.save();ctx.strokeStyle='#fff';ctx.lineWidth=3;ctx.fillStyle='#0958a8';
@@ -83,13 +83,29 @@
   }
   function taskbar(ctx,v) {
     const y=v.h-v.taskbar,h=v.taskbar;
+    const middle=y+h/2;
     ctx.save();
-    ctx.fillStyle='#182a46';ctx.fillRect(0,y,v.w,h);
-    ctx.fillStyle='#86d8c3';ctx.fillRect(0,y,v.w,2);
-    ctx.fillStyle='#d7eee9';ctx.font='600 11px system-ui';
-    ctx.textBaseline='middle';ctx.fillText('TASKBAR',12,y+h/2);
-    ctx.fillStyle='rgba(215,238,233,.20)';
-    for(let x=95;x<v.w-8;x+=26)ctx.fillRect(x,y+h/2,8,1);
+    const glass=ctx.createLinearGradient(0,y,0,y+h);
+    glass.addColorStop(0,'rgba(245,251,255,.96)');glass.addColorStop(1,'rgba(199,223,252,.93)');
+    ctx.fillStyle=glass;ctx.fillRect(0,y,v.w,h);
+    ctx.fillStyle='rgba(255,255,255,.91)';ctx.fillRect(0,y,v.w,1);
+
+    const item=h-17,gap=13,dockWidth=4*item+3*gap+18;
+    const left=(v.w-dockWidth)/2;
+    box(ctx,left,middle-h*.36,dockWidth,h*.72,10,'rgba(255,255,255,.56)');
+    ctx.strokeStyle='rgba(255,255,255,.8)';ctx.lineWidth=1;ctx.stroke();
+    const petX=left+9+item/2,radius=item*.39;
+    ctx.fillStyle='#ffbd69';ctx.beginPath();ctx.arc(petX,middle,radius,0,2*Math.PI);ctx.fill();
+    ctx.fillStyle='#754530';
+    for(const side of [-1,1]){
+      ctx.beginPath();ctx.arc(petX+side*radius*.34,middle-1,radius*.105,0,2*Math.PI);ctx.fill();
+    }
+    const shortcuts=['folder','note','mail'];
+    shortcuts.forEach((kind,i)=>glyph(ctx,kind,left+9+(i+1)*(item+gap),middle-item/2,item));
+    if(v.w>340){
+      ctx.fillStyle='#345579';ctx.font='600 11px system-ui';ctx.textBaseline='middle';
+      ctx.fillText('Taskbar',14,middle);
+    }
     ctx.restore();
   }
   function impactShape(run,t){

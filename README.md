@@ -16,6 +16,7 @@ If your browser restricts local files, run `python -m http.server 8000` in the s
 | --- | --- |
 | [Photos to Work](index.html?scene=runup) | Select **Run route**, then follow the walk along the taskbar and the running jumps. Turn on **Show planned route** to see the predicted arcs. |
 | [Stacked icons](demos.html?chapter=stack) | Play or scrub a jump that uses a side-wall rebound to reach the lower ledge. |
+| [Move a stepping stone](index.html?scene=bridge) | From the taskbar, right-click Archive and choose **Jump here**. Drag Step between the taskbar and Archive so the pet can reach it in two jumps. |
 | [Same-wind comparison](demos.html?chapter=wind) | Watch deterministic A* and the risk-aware MDP make different route choices using common gusts by jump index. |
 | [Build a route](demos.html?chapter=tower) | Watch three added platforms turn an unreachable archive into a four-jump route. |
 | [Bellman decision lab](methods.html#bellman) | Change the failure cost from 6.42 to 6.43 and inspect the switch from Archive to Tools at the same state. |
